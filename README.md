@@ -1,9 +1,8 @@
 # Notes on converting contents of gaia's TAP_SCHEMA tables to felis
 
-Felis docs are [here](https://felis.lsst.io/).
-TAP_SCHEMA v1.1 spec is [here](http://www.ivoa.net/documents/TAP/20170830/PR-TAP-1.1-20170830.pdf).
-
 ## Notes
+* Felis docs are [here](https://felis.lsst.io/).
+* TAP_SCHEMA v1.1 spec is [here](http://www.ivoa.net/documents/TAP/20170830/PR-TAP-1.1-20170830.pdf).
 * I downloaded the table contents in CSV format from [here](https://gaia.aip.de/query/).
   * `select * from TAP_SCHEMA.schemas`
   * `select * from TAP_SCHEMA.tables`
