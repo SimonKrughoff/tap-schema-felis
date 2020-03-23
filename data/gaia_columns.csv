@@ -1,0 +1,854 @@
+id:table_name:column_name:datatype:arraysize:size:description:utype:unit:ucd:principal:indexed:std:column_index:table_id
+2186:gaia_tap_schema.columns:id:int:NULL:NULL:NULL:NULL:NULL:NULL:false:true:false:1:102
+2187:gaia_tap_schema.columns:table_name:char:256:256:NULL:NULL:NULL:NULL:false:false:false:2:102
+2188:gaia_tap_schema.columns:column_name:char:256:256:NULL:NULL:NULL:NULL:false:false:false:3:102
+2189:gaia_tap_schema.columns:datatype:char:256:256:NULL:NULL:NULL:NULL:false:false:false:4:102
+2190:gaia_tap_schema.columns:arraysize:int:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:5:102
+2191:gaia_tap_schema.columns:size:int:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:6:102
+2192:gaia_tap_schema.columns:description:char:256:256:NULL:NULL:NULL:NULL:false:false:false:7:102
+2193:gaia_tap_schema.columns:utype:char:256:256:NULL:NULL:NULL:NULL:false:false:false:8:102
+2194:gaia_tap_schema.columns:unit:char:256:256:NULL:NULL:NULL:NULL:false:false:false:9:102
+2195:gaia_tap_schema.columns:ucd:char:256:256:NULL:NULL:NULL:NULL:false:false:false:10:102
+2196:gaia_tap_schema.columns:principal:boolean:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:11:102
+2197:gaia_tap_schema.columns:indexed:boolean:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:12:102
+2198:gaia_tap_schema.columns:std:boolean:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:13:102
+2199:gaia_tap_schema.columns:column_index:int:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:14:102
+2200:gaia_tap_schema.columns:table_id:int:NULL:NULL:NULL:NULL:NULL:NULL:false:true:false:15:102
+2205:gaia_tap_schema.schemas:id:int:NULL:NULL:NULL:NULL:NULL:NULL:false:true:false:1:104
+2206:gaia_tap_schema.schemas:schema_name:char:256:256:NULL:NULL:NULL:NULL:false:false:false:2:104
+2207:gaia_tap_schema.schemas:utype:char:256:256:NULL:NULL:NULL:NULL:false:false:false:3:104
+2208:gaia_tap_schema.schemas:description:char:256:256:NULL:NULL:NULL:NULL:false:false:false:4:104
+2209:gaia_tap_schema.tables:id:int:NULL:NULL:NULL:NULL:NULL:NULL:false:true:false:1:105
+2210:gaia_tap_schema.tables:schema_name:char:256:256:NULL:NULL:NULL:NULL:false:false:false:2:105
+2211:gaia_tap_schema.tables:table_name:char:256:256:NULL:NULL:NULL:NULL:false:false:false:3:105
+2212:gaia_tap_schema.tables:table_type:char:256:256:NULL:NULL:NULL:NULL:false:false:false:4:105
+2213:gaia_tap_schema.tables:utype:char:256:256:NULL:NULL:NULL:NULL:false:false:false:5:105
+2214:gaia_tap_schema.tables:description:char:256:256:NULL:NULL:NULL:NULL:false:false:false:6:105
+2215:gaia_tap_schema.tables:table_index:int:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:7:105
+2216:gaia_tap_schema.tables:schema_id:int:NULL:NULL:NULL:NULL:NULL:NULL:false:true:false:8:105
+1342:catalogs.allwise:allwise_oid:int:NULL:NULL:Incremental integer identifier added for the purpose of cross referencing:NULL:NULL:meta.id:false:true:false:1:63
+1343:catalogs.allwise:designation:char:NULL:NULL:"Sexagesimal, equatorial position-based source name":NULL:NULL:meta.id:false:false:false:2:63
+1344:catalogs.allwise:ra:double:NULL:NULL:J2000 right ascension with respect to the 2MASS PSC reference frame from the non-moving source extraction:NULL:Angle[deg]:pos.eq.ra:false:false:false:3:63
+1350:catalogs.allwise:w1sigmpro:float:NULL:NULL:W1 profile-fit photometric measurement uncertainty in mag units:NULL:Magnitude[mag]:stat.error;phot.mag:false:false:false:9:63
+1358:catalogs.allwise:ext_flg:int:NULL:NULL:Extended source flag:NULL:NULL:meta.code:false:false:false:17:63
+1335:catalogs.tmass:k_msigcom:float:NULL:NULL:Total H-band magnitude uncertainty:NULL:Magnitude[mag]:stat.error:false:false:false:13:59
+1336:catalogs.tmass:ph_qual:char:NULL:NULL:Photometric quality flag:NULL:NULL:meta.code.qual:false:false:false:14:59
+1378:catalogs.sdssdr9:ra_error:double:NULL:NULL:Mean error on right ascension:NULL:Angle[arcsec]:stat.error;pos.eq.ra:false:false:false:6:64
+1345:catalogs.allwise:dec:double:NULL:NULL:J2000 declination with respect to the 2MASS PSC reference frame from the non-moving source extraction:NULL:Angle[deg]:pos.eq.dec:false:false:false:4:63
+1346:catalogs.allwise:ra_error:double:NULL:NULL:One-sigma uncertainty in right ascension coordinate from the non-moving source extraction:NULL:Angle[arcsec]:stat.error;pos.eq.ra:false:false:false:5:63
+1347:catalogs.allwise:dec_error:double:NULL:NULL:One-sigma uncertainty in declination coordinate from the non-moving source extraction:NULL:Angle[arcsec]:stat.error;pos.eq.dec:false:false:false:6:63
+1348:catalogs.allwise:radec_error:double:NULL:NULL:"The co-sigma of the equatorial position uncertainties, ra_error and dec_error":NULL:Angle[arcsec]:stat.error:false:false:false:7:63
+1349:catalogs.allwise:w1mpro:float:NULL:NULL:"W1 magnitude measured with profile-fitting photometry, or the magnitude of the 95% confidence brightness upper limit if the W1 flux measurement has SNR<2":NULL:Magnitude[mag]:phot.mag:false:false:false:8:63
+1351:catalogs.allwise:w2mpro:float:NULL:NULL:"W2 magnitude measured with profile-fitting photometry, or the magnitude of the 95% confidence brightness upper limit if the W2 flux measurement has SNR<2":NULL:Magnitude[mag]:phot.mag:false:false:false:10:63
+1352:catalogs.allwise:w2sigmpro:float:NULL:NULL:W2 profile-fit photometric measurement uncertainty in mag units:NULL:Magnitude[mag]:stat.error;phot.mag:false:false:false:11:63
+1353:catalogs.allwise:w3mpro:float:NULL:NULL:"W3 magnitude measured with profile-fitting photometry, or the magnitude of the 95% confidence brightness upper limit if the W3 flux measurement has SNR<2":NULL:Magnitude[mag]:phot.mag:false:false:false:12:63
+1354:catalogs.allwise:w3sigmpro:float:NULL:NULL:W3 profile-fit photometric measurement uncertainty in mag units:NULL:Magnitude[mag]:stat.error;phot.mag:false:false:false:13:63
+1355:catalogs.allwise:w4mpro:float:NULL:NULL:"W4 magnitude measured with profile-fitting photometry, or the magnitude of the 95% confidence brightness upper limit if the W4 flux measurement has SNR<2":NULL:Magnitude[mag]:phot.mag:false:false:false:14:63
+1356:catalogs.allwise:w4sigmpro:float:NULL:NULL:W4 profile-fit photometric measurement uncertainty in mag units:NULL:Magnitude[mag]:stat.error;phot.mag:false:false:false:15:63
+1357:catalogs.allwise:cc_flags:char:4:4:Contamination and confusion flag:NULL:NULL:meta.code:false:false:false:16:63
+1359:catalogs.allwise:var_flg:char:4:4:Variability flag:NULL:NULL:meta.code:false:false:false:18:63
+1360:catalogs.allwise:ph_qual:char:4:4:Photometric quality flag:NULL:NULL:meta.code.qual:false:false:false:19:63
+1361:catalogs.allwise:w1mjdmean:double:NULL:NULL:The earliest modified Julian Date (mJD) of the W1 single-exposures covering the source:NULL:Time[Julian Date (day)]:stat.mean:false:false:false:20:63
+1362:catalogs.allwise:w2mjdmean:double:NULL:NULL:The earliest modified Julian Date (mJD) of the W2 single-exposures covering the source:NULL:Time[Julian Date (day)]:stat.mean:false:false:false:21:63
+1363:catalogs.allwise:w3mjdmean:double:NULL:NULL:The earliest modified Julian Date (mJD) of the W3 single-exposures covering the source:NULL:Time[Julian Date (day)]:stat.mean:false:false:false:22:63
+1364:catalogs.allwise:w4mjdmean:double:NULL:NULL:The earliest modified Julian Date (mJD) of the W4 single-exposures covering the source:NULL:Time[Julian Date (day)]:stat.mean:false:false:false:23:63
+1365:catalogs.allwise:w1gmag:float:NULL:NULL:W1 magnitude of source measured in the elliptical aperture:NULL:Magnitude[mag]:phot.mag:false:false:false:24:63
+1366:catalogs.allwise:w1gerr:float:NULL:NULL:Uncertainty in the W1 magnitude of source measured in elliptical aperture:NULL:Magnitude[mag]:stat.error;phot.mag:false:false:false:25:63
+1367:catalogs.allwise:w2gmag:float:NULL:NULL:W2 magnitude of source measured in the elliptical aperture:NULL:Magnitude[mag]:phot.mag:false:false:false:26:63
+1368:catalogs.allwise:w2gerr:float:NULL:NULL:Uncertainty in the W2 magnitude of source measured in elliptical aperture:NULL:Magnitude[mag]:stat.error;phot.mag:false:false:false:27:63
+1369:catalogs.allwise:w3gmag:float:NULL:NULL:W3 magnitude of source measured in the elliptical aperture:NULL:Magnitude[mag]:phot.mag:false:false:false:28:63
+1370:catalogs.allwise:w3gerr:float:NULL:NULL:Uncertainty in the W3 magnitude of source measured in elliptical aperture:NULL:Magnitude[mag]:stat.error;phot.mag:false:false:false:29:63
+1371:catalogs.allwise:w4gmag:float:NULL:NULL:W4 magnitude of source measured in the elliptical aperture:NULL:Magnitude[mag]:phot.mag:false:false:false:30:63
+1372:catalogs.allwise:w4gerr:float:NULL:NULL:Uncertainty in the W4 magnitude of source measured in elliptical aperture:NULL:Magnitude[mag]:stat.error;phot.mag:false:false:false:31:63
+1373:catalogs.sdssdr9:sdssdr9_oid:int:NULL:NULL:Incremental integer identifier added for the purpose of cross referencing:NULL:NULL:meta.id:false:true:false:1:64
+1374:catalogs.sdssdr9:obj_id:char:NULL:NULL:SDSS unique object identifier:NULL:NULL:meta.id:false:false:false:2:64
+1375:catalogs.sdssdr9:thing_id:long:NULL:NULL:SDSS unique source identifier:NULL:NULL:meta.id:false:false:false:3:64
+1376:catalogs.sdssdr9:ra:double:NULL:NULL:Right Ascension of the object (ICRS):NULL:Angle[deg]:pos.eq.ra:false:false:false:4:64
+1377:catalogs.sdssdr9:dec:double:NULL:NULL:Declination of the object (ICRS):NULL:Angle[deg]:pos.eq.dec:false:false:false:5:64
+1379:catalogs.sdssdr9:dec_error:double:NULL:NULL:Mean error on declination:NULL:Angle[arcsec]:stat.error;pos.eq.dec:false:false:false:7:64
+1380:catalogs.sdssdr9:mjd:double:NULL:NULL:Modified Julian Date of observation:NULL:Time[day]:time.epoch:false:false:false:8:64
+1381:catalogs.sdssdr9:u_mag:float:NULL:NULL:Model magnitude in u filter:NULL:Magnitude[mag]:phot.mag:false:false:false:9:64
+1382:catalogs.sdssdr9:u_mag_error:float:NULL:NULL:Mean error on u_mag:NULL:Magnitude[mag]:stat.error;phot.mag:false:false:false:10:64
+1383:catalogs.sdssdr9:g_mag:float:NULL:NULL:Model magnitude in g filter:NULL:Magnitude[mag]:phot.mag:false:false:false:11:64
+1384:catalogs.sdssdr9:g_mag_error:float:NULL:NULL:Mean error on g_mag:NULL:Magnitude[mag]:stat.error;phot.mag:false:false:false:12:64
+1385:catalogs.sdssdr9:r_mag:float:NULL:NULL:Model magnitude in r filter:NULL:Magnitude[mag]:phot.mag:false:false:false:13:64
+1386:catalogs.sdssdr9:r_mag_error:float:NULL:NULL:Mean error on r_mag:NULL:Magnitude[mag]:stat.error;phot.mag:false:false:false:14:64
+1387:catalogs.sdssdr9:i_mag:float:NULL:NULL:Model magnitude in i filter:NULL:Magnitude[mag]:phot.mag:false:false:false:15:64
+1388:catalogs.sdssdr9:i_mag_error:float:NULL:NULL:Mean error on i_mag:NULL:Magnitude[mag]:stat.error;phot.mag:false:false:false:16:64
+1389:catalogs.sdssdr9:z_mag:float:NULL:NULL:Model magnitude in z filter:NULL:Magnitude[mag]:phot.mag:false:false:false:17:64
+1390:catalogs.sdssdr9:z_mag_error:float:NULL:NULL:Mean error on z_mag:NULL:Magnitude[mag]:stat.error;phot.mag:false:false:false:18:64
+1391:catalogs.sdssdr9:objc_type:int:NULL:NULL:"Type of object (galaxy=3, star=6)":NULL:NULL:meta.code.class:false:false:false:19:64
+1392:catalogs.sdssdr9:clean_flag:int:NULL:NULL:"Clean photometry flag (clean=1 unclean=0)":NULL:NULL:meta.code.qual:false:false:false:20:64
+1323:catalogs.tmass:tmass_oid:int:NULL:NULL:Incremental integer identifier added for the purpose of cross referencing:NULL:NULL:meta.id:false:true:false:1:59
+1324:catalogs.tmass:designation:char:NULL:NULL:Source designation formed from sexigesimal coordinates:NULL:NULL:meta.id:false:false:false:2:59
+1325:catalogs.tmass:ra:double:NULL:NULL:J2000 right ascension with respect to the ICRS:NULL:Angle[deg]:pos.eq.ra:false:false:false:3:59
+1326:catalogs.tmass:dec:double:NULL:NULL:J2000 declination with respect to the ICRS:NULL:Angle[deg]:pos.eq.dec:false:false:false:4:59
+1327:catalogs.tmass:err_maj:float:NULL:NULL:Semi-major axis length of the one sigma position uncertainty ellipse:NULL:Angle[arcsec]:stat.error:false:false:false:5:59
+1328:catalogs.tmass:err_min:float:NULL:NULL:Semi-minor axis length of the one sigma position uncertainty ellipse:NULL:Angle[arcsec]:stat.error:false:false:false:6:59
+1329:catalogs.tmass:err_ang:short:NULL:NULL:Position angle on the sky of the semi-major axis of the position uncertainty ellipse (East of North):NULL:Angle[deg]:NULL:false:false:false:7:59
+1330:catalogs.tmass:j_m:float:NULL:NULL:J-band selected magnitude or 95% confidence upper limit:NULL:Magnitude[mag]:phot.mag:false:false:false:8:59
+1331:catalogs.tmass:j_msigcom:float:NULL:NULL:Total J-band magnitude uncertainty:NULL:Magnitude[mag]:stat.error:false:false:false:9:59
+1332:catalogs.tmass:h_m:float:NULL:NULL:H-band selected magnitude or 95% confidence upper limit:NULL:Magnitude[mag]:phot.mag:false:false:false:10:59
+1333:catalogs.tmass:h_msigcom:float:NULL:NULL:Total H-band magnitude uncertainty:NULL:Magnitude[mag]:stat.error:false:false:false:11:59
+1334:catalogs.tmass:k_m:float:NULL:NULL:K-band selected magnitude or 95% confidence upper limit:NULL:Magnitude[mag]:phot.mag:false:false:false:12:59
+1337:catalogs.tmass:ext_key:int:NULL:NULL:Unique identification number of the record in the XSC that corresponds to this point source.:NULL:NULL:meta.id:false:false:false:15:59
+1338:catalogs.tmass:jdate:double:NULL:NULL:The Julian Date of the source measurement accurate to +30 seconds:NULL:Time[Julian Date (day)]:time.epoch:false:false:false:16:59
+255:gdr2.gaia_source:pos:spoint:NULL:NULL:NULL:NULL:NULL:NULL:false:true:false:95:10
+161:gdr2.gaia_source:solution_id:long:NULL:NULL:Solution Identifier:NULL:NULL:meta.version:true:false:false:1:10
+162:gdr2.gaia_source:designation:char:4000:4000:Unique source designation (unique across all Data Releases):NULL:NULL:meta.id;meta.main:true:false:false:2:10
+163:gdr2.gaia_source:source_id:long:NULL:NULL:Unique source identifier (unique within a particular Data Release):NULL:NULL:meta.id:true:true:false:3:10
+164:gdr2.gaia_source:random_index:long:NULL:NULL:Random index used to select subsets:NULL:NULL:meta.code:false:true:false:4:10
+165:gdr2.gaia_source:ref_epoch:double:NULL:NULL:Reference epoch:NULL:Time[Julian Years]:meta.ref;time.epoch:false:false:false:5:10
+166:gdr2.gaia_source:ra:double:NULL:NULL:Right ascension:NULL:Angle[deg]:pos.eq.ra;meta.main:true:true:false:6:10
+167:gdr2.gaia_source:ra_error:double:NULL:NULL:Standard error of right ascension:NULL:Angle[mas]:stat.error;pos.eq.ra:true:false:false:7:10
+168:gdr2.gaia_source:dec:double:NULL:NULL:Declination:NULL:Angle[deg]:pos.eq.dec;meta.main:true:true:false:8:10
+169:gdr2.gaia_source:dec_error:double:NULL:NULL:Standard error of declination:NULL:Angle[mas]:stat.error;pos.eq.dec:true:false:false:9:10
+170:gdr2.gaia_source:parallax:double:NULL:NULL:Parallax:NULL:Angle[mas]:pos.parallax:true:true:false:10:10
+171:gdr2.gaia_source:parallax_error:double:NULL:NULL:Standard error of parallax:NULL:Angle[mas]:stat.error;pos.parallax:true:true:false:11:10
+172:gdr2.gaia_source:parallax_over_error:float:NULL:NULL:Parallax divided by its error:NULL:NULL:arith.ratio:false:true:false:12:10
+173:gdr2.gaia_source:pmra:double:NULL:NULL:Proper motion in right ascension direction:NULL:Angular Velocity[mas/year]:pos.pm;pos.eq.ra:true:true:false:13:10
+174:gdr2.gaia_source:pmra_error:double:NULL:NULL:Standard error of proper motion in right ascension direction:NULL:Angular Velocity[mas/year]:stat.error;pos.pm;pos.eq.ra:true:false:false:14:10
+175:gdr2.gaia_source:pmdec:double:NULL:NULL:Proper motion in declination direction:NULL:Angular Velocity[mas/year]:pos.pm;pos.eq.dec:true:true:false:15:10
+176:gdr2.gaia_source:pmdec_error:double:NULL:NULL:Standard error of proper motion in declination direction:NULL:Angular Velocity[mas/year]:stat.error;pos.pm;pos.eq.dec:true:false:false:16:10
+177:gdr2.gaia_source:ra_dec_corr:float:NULL:NULL:Correlation between right ascension and declination:NULL:NULL:stat.correlation;pos.eq.ra;pos.eq.dec:false:false:false:17:10
+178:gdr2.gaia_source:ra_parallax_corr:float:NULL:NULL:Correlation between right ascension and parallax:NULL:NULL:stat.correlation;pos.eq.ra;pos.parallax:false:false:false:18:10
+179:gdr2.gaia_source:ra_pmra_corr:float:NULL:NULL:Correlation between right ascension and proper motion in right ascension:NULL:NULL:stat.correlation;pos.eq.ra;pos.pm;pos.eq.ra:false:false:false:19:10
+180:gdr2.gaia_source:ra_pmdec_corr:float:NULL:NULL:Correlation between right ascension and proper motion in declination:NULL:NULL:stat.correlation;pos.eq.ra;pos.pm;pos.eq.dec:false:false:false:20:10
+181:gdr2.gaia_source:dec_parallax_corr:float:NULL:NULL:Correlation between declination and parallax:NULL:NULL:stat.correlation;pos.eq.dec;pos.parallax:false:false:false:21:10
+182:gdr2.gaia_source:dec_pmra_corr:float:NULL:NULL:Correlation between declination and proper motion in right ascension:NULL:NULL:stat.correlation;pos.eq.dec;pos.pm;pos.eq.ra:false:false:false:22:10
+183:gdr2.gaia_source:dec_pmdec_corr:float:NULL:NULL:Correlation between declination and proper motion in declination:NULL:NULL:stat.correlation;pos.eq.dec;pos.pm;pos.eq.dec:false:false:false:23:10
+184:gdr2.gaia_source:parallax_pmra_corr:float:NULL:NULL:Correlation between parallax and proper motion in right ascension:NULL:NULL:stat.correlation;pos.parallax;pos.pm;pos.eq.ra:false:false:false:24:10
+185:gdr2.gaia_source:parallax_pmdec_corr:float:NULL:NULL:Correlation between parallax and proper motion in declination:NULL:NULL:stat.correlation;pos.parallax;pos.pm;pos.eq.dec:false:false:false:25:10
+186:gdr2.gaia_source:pmra_pmdec_corr:float:NULL:NULL:Correlation between proper motion in right ascension and proper motion in declination:NULL:NULL:stat.correlation;pos.pm;pos.eq.ra;pos.pm;pos.eq.dec:false:false:false:26:10
+187:gdr2.gaia_source:astrometric_n_obs_al:int:NULL:NULL:Total number of observations AL:NULL:NULL:meta.number:false:false:false:27:10
+188:gdr2.gaia_source:astrometric_n_obs_ac:int:NULL:NULL:Total number of observations AC:NULL:NULL:meta.number:false:false:false:28:10
+189:gdr2.gaia_source:astrometric_n_good_obs_al:int:NULL:NULL:Number of good observations AL:NULL:NULL:meta.number:false:false:false:29:10
+190:gdr2.gaia_source:astrometric_n_bad_obs_al:int:NULL:NULL:Number of bad observations AL:NULL:NULL:meta.number:false:false:false:30:10
+191:gdr2.gaia_source:astrometric_gof_al:float:NULL:NULL:Goodness of fit statistic of model wrt along-scan observations:NULL:NULL:stat.fit.goodness:false:false:false:31:10
+192:gdr2.gaia_source:astrometric_chi2_al:float:NULL:NULL:AL chi-square value:NULL:NULL:stat.fit.chi2:false:false:false:32:10
+193:gdr2.gaia_source:astrometric_excess_noise:double:NULL:NULL:Excess noise of the source:NULL:Angle[mas]:stat.value:false:false:false:33:10
+194:gdr2.gaia_source:astrometric_excess_noise_sig:double:NULL:NULL:Significance of excess noise:NULL:NULL:stat.value:false:false:false:34:10
+195:gdr2.gaia_source:astrometric_params_solved:short:NULL:NULL:Which parameters have been solved for?:NULL:NULL:meta.number:false:false:false:35:10
+196:gdr2.gaia_source:astrometric_primary_flag:boolean:NULL:NULL:Primary or seconday:NULL:NULL:meta.code:false:false:false:36:10
+197:gdr2.gaia_source:astrometric_weight_al:float:NULL:NULL:Mean astrometric weight of the source:NULL:Angle[mas^-2]:stat.weight;stat.mean:false:false:false:37:10
+198:gdr2.gaia_source:astrometric_pseudo_colour:double:NULL:NULL:Astrometrically determined pseudocolour of the source:NULL:Misc[µm^-1]:em.wavenumber:false:false:false:38:10
+199:gdr2.gaia_source:astrometric_pseudo_colour_error:double:NULL:NULL:Standard error of the pseudocolour of the source:NULL:Misc[µm^-1]:em.wavenumber;stat.error:false:false:false:39:10
+200:gdr2.gaia_source:mean_varpi_factor_al:float:NULL:NULL:Mean Parallax factor AL:NULL:NULL:arith.factor;pos.parallax:false:false:false:40:10
+201:gdr2.gaia_source:astrometric_matched_observations:short:NULL:NULL:Matched FOV transits used in the AGIS solution:NULL:NULL:meta.number:false:false:false:41:10
+533:gdr2.vari_cepheid:peak_to_peak_g:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:27:30
+202:gdr2.gaia_source:visibility_periods_used:short:NULL:NULL:Number of visibility periods used in Astrometric solution:NULL:NULL:meta.number:false:false:false:42:10
+203:gdr2.gaia_source:astrometric_sigma5d_max:float:NULL:NULL:The longest semi-major axis of the 5-d error ellipsoid:NULL:Angle[mas]:pos.errorEllipse;stat.max:false:false:false:43:10
+204:gdr2.gaia_source:frame_rotator_object_type:int:NULL:NULL:The type of the source mainly used for frame rotation:NULL:NULL:meta.code:false:false:false:44:10
+205:gdr2.gaia_source:matched_observations:short:NULL:NULL:Amount of observations matched to this source:NULL:NULL:meta.number:false:false:false:45:10
+206:gdr2.gaia_source:duplicated_source:boolean:NULL:NULL:Source with duplicate sources:NULL:NULL:meta.code.status:false:true:false:46:10
+207:gdr2.gaia_source:phot_g_n_obs:int:NULL:NULL:Number of observations contributing to G photometry:NULL:NULL:meta.number:false:false:false:47:10
+208:gdr2.gaia_source:phot_g_mean_flux:double:NULL:NULL:G-band mean flux:NULL:Flux[e-/s]:phot.flux;stat.mean;em.opt:false:false:false:48:10
+209:gdr2.gaia_source:phot_g_mean_flux_error:double:NULL:NULL:Error on G-band mean flux:NULL:Flux[e-/s]:stat.error;phot.flux;stat.mean;em.opt:false:false:false:49:10
+210:gdr2.gaia_source:phot_g_mean_flux_over_error:float:NULL:NULL:G-band mean flux divided by its error:NULL:NULL:arith.ratio:false:false:false:50:10
+211:gdr2.gaia_source:phot_g_mean_mag:float:NULL:NULL:G-band mean magnitude:NULL:Magnitude[mag]:phot.mag;stat.mean;em.opt:true:true:false:51:10
+212:gdr2.gaia_source:phot_bp_n_obs:int:NULL:NULL:Number of observations contributing to BP photometry:NULL:NULL:meta.number:false:false:false:52:10
+213:gdr2.gaia_source:phot_bp_mean_flux:double:NULL:NULL:Integrated BP mean flux:NULL:Flux[e-/s]:phot.flux;stat.mean:false:false:false:53:10
+214:gdr2.gaia_source:phot_bp_mean_flux_error:double:NULL:NULL:Error on the integrated BP mean flux:NULL:Flux[e-/s]:stat.error;phot.flux;stat.mean:false:false:false:54:10
+215:gdr2.gaia_source:phot_bp_mean_flux_over_error:float:NULL:NULL:Integrated BP mean flux divided by its error:NULL:NULL:arith.ratio:false:false:false:55:10
+216:gdr2.gaia_source:phot_bp_mean_mag:float:NULL:NULL:Integrated BP mean magnitude:NULL:Magnitude[mag]:phot.mag;stat.mean:true:true:false:56:10
+217:gdr2.gaia_source:phot_rp_n_obs:int:NULL:NULL:Number of observations contributing to RP photometry:NULL:NULL:meta.number:false:false:false:57:10
+218:gdr2.gaia_source:phot_rp_mean_flux:double:NULL:NULL:Integrated RP mean flux:NULL:Flux[e-/s]:phot.flux;stat.mean:false:false:false:58:10
+219:gdr2.gaia_source:phot_rp_mean_flux_error:double:NULL:NULL:Error on the integrated RP mean flux:NULL:Flux[e-/s]:stat.error;phot.flux:false:false:false:59:10
+220:gdr2.gaia_source:phot_rp_mean_flux_over_error:float:NULL:NULL:Integrated RP mean flux divided by its error:NULL:NULL:arith.ratio:false:false:false:60:10
+221:gdr2.gaia_source:phot_rp_mean_mag:float:NULL:NULL:Integrated RP mean magnitude:NULL:Magnitude[mag]:phot.mag;stat.mean:true:true:false:61:10
+222:gdr2.gaia_source:phot_bp_rp_excess_factor:float:NULL:NULL:BP/RP excess factor:NULL:NULL:NULL:false:false:false:62:10
+223:gdr2.gaia_source:phot_proc_mode:short:NULL:NULL:Photometry processing mode:NULL:NULL:NULL:false:false:false:63:10
+224:gdr2.gaia_source:bp_rp:float:NULL:NULL:BP - RP colour:NULL:Magnitude[mag]:phot.color:false:true:false:64:10
+225:gdr2.gaia_source:bp_g:float:NULL:NULL:BP - G colour:NULL:Magnitude[mag]:phot.color:false:false:false:65:10
+226:gdr2.gaia_source:g_rp:float:NULL:NULL:G - RP colour:NULL:Magnitude[mag]:phot.color:false:false:false:66:10
+227:gdr2.gaia_source:radial_velocity:double:NULL:NULL:Radial velocity:NULL:Velocity[km/s]:spect.dopplerVeloc.opt:false:true:false:67:10
+228:gdr2.gaia_source:radial_velocity_error:double:NULL:NULL:Radial velocity error:NULL:Velocity[km/s]:stat.error;spect.dopplerVeloc.opt:false:false:false:68:10
+229:gdr2.gaia_source:rv_nb_transits:int:NULL:NULL:Number of transits used to compute radial velocity:NULL:NULL:meta.number:false:false:false:69:10
+230:gdr2.gaia_source:rv_template_teff:float:NULL:NULL:Teff of the template used to compute radial velocity:NULL:Temperature[K]:stat.fit.param:false:false:false:70:10
+231:gdr2.gaia_source:rv_template_logg:float:NULL:NULL:logg of the template used to compute radial velocity:NULL:GravitySurface[log cgs]:stat.fit.param:false:false:false:71:10
+232:gdr2.gaia_source:rv_template_fe_h:float:NULL:NULL:Fe/H of the template used to compute radial velocity:NULL:Abundances[dex]:stat.fit.param:false:false:false:72:10
+233:gdr2.gaia_source:phot_variable_flag:char:4000:4000:Photometric variability flag:NULL:NULL:meta.code;src.var:false:true:false:73:10
+234:gdr2.gaia_source:l:double:NULL:NULL:Galactic longitude:NULL:Angle[deg]:pos.galactic.lon:true:true:false:74:10
+235:gdr2.gaia_source:b:double:NULL:NULL:Galactic latitude:NULL:Angle[deg]:pos.galactic.lat:true:true:false:75:10
+236:gdr2.gaia_source:ecl_lon:double:NULL:NULL:Ecliptic longitude:NULL:Angle[deg]:pos.ecliptic.lon:false:false:false:76:10
+237:gdr2.gaia_source:ecl_lat:double:NULL:NULL:Ecliptic latitude:NULL:Angle[deg]:pos.ecliptic.lat:false:false:false:77:10
+238:gdr2.gaia_source:priam_flags:long:NULL:NULL:flags for the Apsis-Priam results:NULL:NULL:meta.code:false:false:false:78:10
+239:gdr2.gaia_source:teff_val:float:NULL:NULL:stellar effective temperature:NULL:Temperature[K]:phys.temperature.effective:false:true:false:79:10
+240:gdr2.gaia_source:teff_percentile_lower:float:NULL:NULL:teffVal lower uncertainty:NULL:Temperature[K]:phys.temperature.effective;stat.min:false:false:false:80:10
+241:gdr2.gaia_source:teff_percentile_upper:float:NULL:NULL:teffVal upper uncertainty:NULL:Temperature[K]:phys.temperature.effective;stat.max:false:false:false:81:10
+242:gdr2.gaia_source:a_g_val:float:NULL:NULL:"line-of-sight extinction in the G band, A_G)":NULL:Magnitude[mag]:phys.absorption.gal:false:false:false:82:10
+243:gdr2.gaia_source:a_g_percentile_lower:float:NULL:NULL:aGVal lower uncertainty:NULL:Magnitude[mag]:phys.absorption.gal;stat.min:false:false:false:83:10
+244:gdr2.gaia_source:a_g_percentile_upper:float:NULL:NULL:aGVal upper uncertainty:NULL:Magnitude[mag]:phys.absorption.gal;stat.max:false:false:false:84:10
+245:gdr2.gaia_source:e_bp_min_rp_val:float:NULL:NULL:line-of-sight reddening E(BP-RP):NULL:Magnitude[mag]:NULL:false:false:false:85:10
+246:gdr2.gaia_source:e_bp_min_rp_percentile_lower:float:NULL:NULL:eBPminRPVal lower uncertainty:NULL:Magnitude[mag]:NULL:false:false:false:86:10
+247:gdr2.gaia_source:e_bp_min_rp_percentile_upper:float:NULL:NULL:eBPminRPVal upper uncertainty:NULL:Magnitude[mag]:NULL:false:false:false:87:10
+248:gdr2.gaia_source:flame_flags:long:NULL:NULL:Flags for the Apsis-FLAME results:NULL:NULL:meta.code:false:false:false:88:10
+249:gdr2.gaia_source:radius_val:float:NULL:NULL:stellar radius:NULL:Length & Distance[Solar Radius]:phys.size.radius:false:false:false:89:10
+250:gdr2.gaia_source:radius_percentile_lower:float:NULL:NULL:radiusVal lower uncertainty:NULL:Length & Distance[Solar Radius]:phys.size.radius;stat.error:false:false:false:90:10
+251:gdr2.gaia_source:radius_percentile_upper:float:NULL:NULL:radiusVal upper uncertainty:NULL:Length & Distance[Solar Radius]:phys.size.radius;stat.error:false:false:false:91:10
+252:gdr2.gaia_source:lum_val:float:NULL:NULL:stellar luminosity:NULL:Luminosity[Solar Luminosity]:phys.luminosity:false:false:false:92:10
+253:gdr2.gaia_source:lum_percentile_lower:float:NULL:NULL:lumVal lower uncertainty:NULL:Luminosity[Solar Luminosity]:phys.luminosity;stat.error:false:false:false:93:10
+254:gdr2.gaia_source:lum_percentile_upper:float:NULL:NULL:lumVal upper uncertainty:NULL:Luminosity[Solar Luminosity]:phys.luminosity;stat.error:false:false:false:94:10
+613:gdr2.sso_observation:solution_id:long:NULL:NULL:Solution Identifier:NULL:NULL:meta.version:true:false:false:1:34
+614:gdr2.sso_observation:source_id:long:NULL:NULL:Source identifier:NULL:NULL:meta.id;meta.main:true:true:false:2:34
+615:gdr2.sso_observation:observation_id:long:NULL:NULL:Observation Identifier:NULL:NULL:meta.id:false:false:false:3:34
+616:gdr2.sso_observation:number_mp:long:NULL:NULL:minor planet number attributed by MPC:NULL:NULL:meta.id.cross:false:true:false:4:34
+617:gdr2.sso_observation:epoch:double:NULL:NULL:Gaia-centric epoch TCB(Gaia):NULL:Time[Barycentric JD in TCB - 2455197.5 (day)]:time.epoch:false:false:false:5:34
+618:gdr2.sso_observation:epoch_err:double:NULL:NULL:Error in Gaiacentric epoch:NULL:Time[day]:stat.error;time.epoch:false:false:false:6:34
+619:gdr2.sso_observation:epoch_utc:double:NULL:NULL:Gaiacentric epoch UTC:NULL:Time[Julian Date (day)]:time.epoch:false:false:false:7:34
+620:gdr2.sso_observation:ra:double:NULL:NULL:Right ascension of the source:NULL:Angle[deg]:pos.eq.ra:true:false:false:8:34
+621:gdr2.sso_observation:dec:double:NULL:NULL:Declination of the source:NULL:Angle[deg]:pos.eq.dec:true:false:false:9:34
+622:gdr2.sso_observation:ra_error_systematic:double:NULL:NULL:Standard error of right ascension - systematic:NULL:Angle[mas]:pos.eq.ra;stat.error:false:false:false:10:34
+623:gdr2.sso_observation:dec_error_systematic:double:NULL:NULL:Standard error of declination - systematic:NULL:Angle[mas]:pos.eq.dec;stat.error:false:false:false:11:34
+624:gdr2.sso_observation:ra_dec_correlation_systematic:double:NULL:NULL:Correlation of ra and dec errors - systematic:NULL:NULL:pos.eq;stat.correlation:false:false:false:12:34
+625:gdr2.sso_observation:ra_error_random:double:NULL:NULL:Standard error of right ascension - random:NULL:Angle[mas]:pos.eq.ra;stat.error:false:false:false:13:34
+626:gdr2.sso_observation:dec_error_random:double:NULL:NULL:Standard error of declination - random:NULL:Angle[mas]:pos.eq.dec;stat.error:false:false:false:14:34
+627:gdr2.sso_observation:ra_dec_correlation_random:double:NULL:NULL:Correlation of ra and dec errors - random:NULL:NULL:pos.eq;stat.correlation:false:false:false:15:34
+628:gdr2.sso_observation:g_mag:double:NULL:NULL:Calibrated G mag:NULL:Magnitude[mag]:em.opt;phot.mag:false:false:false:16:34
+629:gdr2.sso_observation:g_flux:double:NULL:NULL:Average calibrated G flux for the transit:NULL:Flux[e-/s]:em.opt;phot.flux;stat.mean:false:false:false:17:34
+630:gdr2.sso_observation:g_flux_error:double:NULL:NULL:Error on the G flux:NULL:Flux[e-/s]:em.opt;phot.flux;stat.error:false:false:false:18:34
+631:gdr2.sso_observation:x_gaia:double:NULL:NULL:Barycentric x position of Gaia:NULL:Length & Distance[AU]:pos.barycenter;pos.cartesian.x:false:false:false:19:34
+632:gdr2.sso_observation:y_gaia:double:NULL:NULL:Barycentric y position of Gaia:NULL:Length & Distance[AU]:pos.barycenter;pos.cartesian.y:false:false:false:20:34
+633:gdr2.sso_observation:z_gaia:double:NULL:NULL:Barycentric z position of Gaia:NULL:Length & Distance[AU]:pos.barycenter;pos.cartesian.z:false:false:false:21:34
+634:gdr2.sso_observation:vx_gaia:double:NULL:NULL:Barycentric x velocity of Gaia:NULL:Velocity[au/d]:phys.veloc;pos.barycenter;pos.cartesian.x:false:false:false:22:34
+635:gdr2.sso_observation:vy_gaia:double:NULL:NULL:Barycentric y velocity of Gaia:NULL:Velocity[au/d]:phys.veloc;pos.barycenter;pos.cartesian.y:false:false:false:23:34
+636:gdr2.sso_observation:vz_gaia:double:NULL:NULL:Barycentric z velocity of Gaia:NULL:Velocity[au/d]:phys.veloc;pos.barycenter;pos.cartesian.z:false:false:false:24:34
+637:gdr2.sso_observation:position_angle_scan:double:NULL:NULL:Position angle of the scanning direction:NULL:Angle[deg]:pos.posAng:false:false:false:25:34
+638:gdr2.sso_observation:level_of_confidence:short:NULL:NULL:Level of confidence of the identification:NULL:Dimensionless[percentage/100]:meta.id.cross;stat.likelihood:false:false:false:26:34
+639:gdr2.sso_observation:pos:spoint:NULL:NULL:NULL:NULL:NULL:NULL:false:true:false:27:34
+640:gdr2.sso_source:solution_id:long:NULL:NULL:Solution Identifier:NULL:NULL:meta.version:true:false:false:1:35
+641:gdr2.sso_source:source_id:long:NULL:NULL:Source identifier:NULL:NULL:meta.id;meta.main:true:true:false:2:35
+642:gdr2.sso_source:num_of_obs:int:NULL:NULL:number of observations:NULL:NULL:meta.number:false:false:false:3:35
+643:gdr2.sso_source:number_mp:long:NULL:NULL:Minor Planet number:NULL:NULL:meta.id.cross:false:true:false:4:35
+644:gdr2.sso_source:denomination:char:4000:4000:standard MPC denomination of the asteroid:NULL:NULL:meta.id.cross:false:false:false:5:35
+507:gdr2.vari_cepheid:type_best_classification:char:4000:4000:"Best type classification estimate out of, {""DCEP"", ""T2CEP"", ""ACEP""}":NULL:NULL:meta.code.class;src.class:false:false:false:1:30
+508:gdr2.vari_cepheid:type2_best_sub_classification:char:4000:4000:"Best subclassification estimate for typeBestClassification=""T2CEP"" out of, {""BL_HER"", ""W_VIR"", ""RV_TAU""}":NULL:NULL:meta.code.class;src.class:false:false:false:2:30
+509:gdr2.vari_cepheid:mode_best_classification:char:4000:4000:"Best mode classification estimate  out of, {""FUNDAMENTAL"", ""FIRST_OVERTONE"", ""SECOND_OVERTONE"", ""MULTI"", ""UNDEFINED"", ""NOT_APPLICABLE""}":NULL:NULL:meta.code.class;src.class:false:false:false:3:30
+510:gdr2.vari_cepheid:multi_mode_best_classification:char:4000:4000:"Best multi mode DCEP classification out of, { ""F/1O"", ""F/2O"", ""1O/2O"", ""1O/3O"", ""2O/3O"", ""F/1O/2O"", ""1O/2O/3O""}":NULL:NULL:meta.code.class;src.class:false:false:false:4:30
+511:gdr2.vari_cepheid:solution_id:long:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:5:30
+512:gdr2.vari_cepheid:source_id:long:NULL:NULL:NULL:NULL:NULL:NULL:false:true:false:6:30
+513:gdr2.vari_cepheid:pf:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:7:30
+514:gdr2.vari_cepheid:pf_error:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:8:30
+515:gdr2.vari_cepheid:p1_o:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:9:30
+516:gdr2.vari_cepheid:p1_o_error:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:10:30
+517:gdr2.vari_cepheid:p2_o:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:11:30
+518:gdr2.vari_cepheid:p2_o_error:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:12:30
+519:gdr2.vari_cepheid:p3_o:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:13:30
+520:gdr2.vari_cepheid:p3_o_error:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:14:30
+521:gdr2.vari_cepheid:epoch_g:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:15:30
+522:gdr2.vari_cepheid:epoch_g_error:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:16:30
+523:gdr2.vari_cepheid:epoch_bp:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:17:30
+524:gdr2.vari_cepheid:epoch_bp_error:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:18:30
+525:gdr2.vari_cepheid:epoch_rp:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:19:30
+526:gdr2.vari_cepheid:epoch_rp_error:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:20:30
+527:gdr2.vari_cepheid:int_average_g:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:21:30
+528:gdr2.vari_cepheid:int_average_g_error:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:22:30
+529:gdr2.vari_cepheid:int_average_bp:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:23:30
+530:gdr2.vari_cepheid:int_average_bp_error:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:24:30
+531:gdr2.vari_cepheid:int_average_rp:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:25:30
+532:gdr2.vari_cepheid:int_average_rp_error:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:26:30
+534:gdr2.vari_cepheid:peak_to_peak_g_error:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:28:30
+535:gdr2.vari_cepheid:peak_to_peak_bp:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:29:30
+536:gdr2.vari_cepheid:peak_to_peak_bp_error:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:30:30
+537:gdr2.vari_cepheid:peak_to_peak_rp:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:31:30
+538:gdr2.vari_cepheid:peak_to_peak_rp_error:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:32:30
+539:gdr2.vari_cepheid:metallicity:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:33:30
+540:gdr2.vari_cepheid:metallicity_error:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:34:30
+541:gdr2.vari_cepheid:r21_g:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:35:30
+542:gdr2.vari_cepheid:r21_g_error:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:36:30
+543:gdr2.vari_cepheid:r31_g:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:37:30
+544:gdr2.vari_cepheid:r31_g_error:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:38:30
+545:gdr2.vari_cepheid:phi21_g:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:39:30
+546:gdr2.vari_cepheid:phi21_g_error:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:40:30
+547:gdr2.vari_cepheid:phi31_g:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:41:30
+548:gdr2.vari_cepheid:phi31_g_error:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:42:30
+549:gdr2.vari_cepheid:num_clean_epochs_g:int:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:43:30
+550:gdr2.vari_cepheid:num_clean_epochs_bp:int:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:44:30
+551:gdr2.vari_cepheid:num_clean_epochs_rp:int:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:45:30
+552:gdr2.vari_cepheid:g_absorption:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:46:30
+553:gdr2.vari_cepheid:g_absorption_error:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:47:30
+154:gdr2.vari_classifier_class_definition:solution_id:long:NULL:NULL:Solution Identifier:NULL:NULL:meta.version:true:false:false:1:8
+155:gdr2.vari_classifier_class_definition:classifier_name:char:4000:4000:Name of the classifier that is detailed in this entry:NULL:NULL:meta.software:false:false:false:2:8
+156:gdr2.vari_classifier_class_definition:class_name:char:4000:4000:Name of the published class from this classifier:NULL:NULL:meta.title:false:false:false:3:8
+157:gdr2.vari_classifier_class_definition:class_description:char:4000:4000:Description of the published class from this classifier:NULL:NULL:meta.note:false:false:false:4:8
+158:gdr2.vari_classifier_definition:solution_id:long:NULL:NULL:Solution Identifier:NULL:NULL:meta.version:true:false:false:1:9
+159:gdr2.vari_classifier_definition:classifier_name:char:4000:4000:Name of the classifier that is detailed in this entry:NULL:NULL:meta.software:false:true:false:2:9
+160:gdr2.vari_classifier_definition:classifier_description:char:4000:4000:Description of this classifier:NULL:NULL:meta.software:false:false:false:3:9
+299:gdr2.vari_classifier_result:solution_id:long:NULL:NULL:Solution Identifier:NULL:NULL:meta.version:true:false:false:1:12
+300:gdr2.vari_classifier_result:source_id:long:NULL:NULL:Unique source identifier:NULL:NULL:meta.id;meta.main:true:false:false:2:12
+301:gdr2.vari_classifier_result:classifier_name:char:4000:4000:"Classifier name used to produce this result, use for lookup in VariClassifierDefinition table":NULL:NULL:meta.software:false:false:false:3:12
+302:gdr2.vari_classifier_result:best_class_name:char:4000:4000:"Name of best class, see table VariClassifierDefinition for details of the class":NULL:NULL:meta.title:false:true:false:4:12
+303:gdr2.vari_classifier_result:best_class_score:double:NULL:NULL:Score of the best class:NULL:NULL:meta.code.qual:false:false:false:5:12
+304:gdr2.vari_long_period_variable:solution_id:long:NULL:NULL:Solution Identifier:NULL:NULL:meta.version:true:false:false:1:13
+305:gdr2.vari_long_period_variable:source_id:long:NULL:NULL:Unique source identifier:NULL:NULL:meta.id;meta.main:true:true:false:2:13
+306:gdr2.vari_long_period_variable:abs_mag_bol:double:NULL:NULL:Absolute bolometric magnitude of the star:NULL:Magnitude[mag]:phot.mag.bol:false:false:false:3:13
+307:gdr2.vari_long_period_variable:abs_mag_bol_error:double:NULL:NULL:Error of absolute bolometric magnitude:NULL:Magnitude[mag]:phot.mag.bol;stat.error:false:false:false:4:13
+308:gdr2.vari_long_period_variable:rsg_flag:unsignedByte:NULL:NULL:Red supergiant flag:NULL:NULL:meta.code.status:false:false:false:5:13
+309:gdr2.vari_long_period_variable:bolometric_corr:double:NULL:NULL:Bolometric correction for LPVs:NULL:Magnitude[mag]:phot.mag.bc:false:false:false:6:13
+310:gdr2.vari_long_period_variable:bolometric_corr_error:double:NULL:NULL:Error of the bolometric correction:NULL:Magnitude[mag]:phot.mag.bc;stat.error:false:false:false:7:13
+311:gdr2.vari_long_period_variable:frequency:double:NULL:NULL:Frequency of the LPV:NULL:Frequency[day^-1]:NULL:false:false:false:8:13
+312:gdr2.vari_long_period_variable:frequency_error:double:NULL:NULL:Error on the frequency:NULL:Frequency[day^-1]:NULL:false:false:false:9:13
+259:gdr2.vari_rotation_modulation:segments_rotation_period:array:NULL:NULL:Rotation period in segment:NULL:Time[day]:phys.veloc.rotat;time.period:false:false:false:1:11
+260:gdr2.vari_rotation_modulation:segments_rotation_period_error:array:NULL:NULL:Rotation period uncertainty in segment:NULL:Time[day]:phys.veloc.rotat;time.period;stat.error:false:false:false:2:11
+261:gdr2.vari_rotation_modulation:segments_rotation_period_fap:array:NULL:NULL:FAP on rotation period in segment:NULL:Dimensionless[percentage/100]:stat.probability:false:false:false:3:11
+262:gdr2.vari_rotation_modulation:segments_cos_term:array:NULL:NULL:Coefficient of cosine term of linear fit in segment:NULL:Magnitude[mag]:stat.fit.param:false:false:false:4:11
+263:gdr2.vari_rotation_modulation:segments_cos_term_error:array:NULL:NULL:Errors on cosin terms:NULL:Magnitude[mag]:stat.error;stat.fit.param:false:false:false:5:11
+264:gdr2.vari_rotation_modulation:segments_sin_term:array:NULL:NULL:Coefficient of sin term of linear fit in segment:NULL:Magnitude[mag]:stat.fit.param:false:false:false:6:11
+265:gdr2.vari_rotation_modulation:segments_sin_term_error:array:NULL:NULL:Errors on sine terms:NULL:Magnitude[mag]:stat.error;stat.fit.param:false:false:false:7:11
+266:gdr2.vari_rotation_modulation:segments_a0_term:array:NULL:NULL:Constant term (A0) of linear fit in segment:NULL:Magnitude[mag]:stat.fit.param:false:false:false:8:11
+267:gdr2.vari_rotation_modulation:segments_a0_term_error:array:NULL:NULL:Errors on constant terms:NULL:Magnitude[mag]:stat.error;stat.fit.param:false:false:false:9:11
+268:gdr2.vari_rotation_modulation:best_rotation_period:double:NULL:NULL:Best rotation period:NULL:Time[day]:phys.veloc.rotat;time.period:false:false:false:10:11
+269:gdr2.vari_rotation_modulation:best_rotation_period_error:double:NULL:NULL:Error on best rotation period:NULL:Time[day]:phys.veloc.rotat;time.period;stat.error:false:false:false:11:11
+270:gdr2.vari_rotation_modulation:segments_activity_index:array:NULL:NULL:Activity Index in segment:NULL:Magnitude[mag]:phot.mag;src.var.amplitude:false:false:false:12:11
+271:gdr2.vari_rotation_modulation:segments_activity_index_error:array:NULL:NULL:error on Activity index in segment:NULL:Magnitude[mag]:phot.mag;src.var.amplitude;stat.error:false:false:false:13:11
+272:gdr2.vari_rotation_modulation:max_activity_index:double:NULL:NULL:The maximum Activity Index:NULL:Magnitude[mag]:phot.mag;src.var.amplitude;stat.max:false:false:false:14:11
+413:gdr2.vari_short_timescale:source_id:long:NULL:NULL:Unique source identifier:NULL:NULL:meta.id;meta.main:true:true:false:2:23
+273:gdr2.vari_rotation_modulation:max_activity_index_error:double:NULL:NULL:Error on maximum activity index:NULL:Magnitude[mag]:phot.mag;src.var.amplitude;stat.max;stat.error:false:false:false:15:11
+274:gdr2.vari_rotation_modulation:segments_g_unspotted:array:NULL:NULL:The unspotted G mags in segment:NULL:Magnitude[mag]:em.opt;phot.mag;stat.min:false:false:false:16:11
+275:gdr2.vari_rotation_modulation:segments_g_unspotted_error:array:NULL:NULL:The unspotted G mag uncertainties in segment:NULL:Magnitude[mag]:em.opt;phot.mag;stat.error;stat.min:false:false:false:17:11
+276:gdr2.vari_rotation_modulation:segments_bp_unspotted:array:NULL:NULL:The unspotted BP mag in segment:NULL:Magnitude[mag]:em.opt.B;phot.mag;stat.min:false:false:false:18:11
+277:gdr2.vari_rotation_modulation:segments_bp_unspotted_error:array:NULL:NULL:The unspotted BP mag uncertainties in segment:NULL:Magnitude[mag]:em.opt.B;phot.mag;stat.min;stat.error:false:false:false:19:11
+278:gdr2.vari_rotation_modulation:segments_rp_unspotted:array:NULL:NULL:The unspotted RP mag in segment:NULL:Magnitude[mag]:em.opt.R;phot.mag;stat.min:false:false:false:20:11
+279:gdr2.vari_rotation_modulation:segments_rp_unspotted_error:array:NULL:NULL:The unspotted RP mag uncertainties in segment:NULL:Magnitude[mag]:em.opt.R;phot.mag;stat.min;stat.error:false:false:false:21:11
+280:gdr2.vari_rotation_modulation:g_unspotted:double:NULL:NULL:Unspotted G mag:NULL:Magnitude[mag]:em.opt;phot.mag;stat.min:false:false:false:22:11
+281:gdr2.vari_rotation_modulation:g_unspotted_error:double:NULL:NULL:Unspotted G mag uncertainty:NULL:Magnitude[mag]:em.opt;phot.mag;stat.min;stat.error:false:false:false:23:11
+282:gdr2.vari_rotation_modulation:bp_unspotted:double:NULL:NULL:Unspotted BP mag:NULL:Magnitude[mag]:em.opt.B;phot.mag;stat.min:false:false:false:24:11
+283:gdr2.vari_rotation_modulation:bp_unspotted_error:double:NULL:NULL:Unspotted BP mag uncertainty:NULL:Magnitude[mag]:em.opt.B;phot.mag;stat.min;stat.error:false:false:false:25:11
+284:gdr2.vari_rotation_modulation:rp_unspotted:double:NULL:NULL:Unspotted RP mag:NULL:Magnitude[mag]:em.opt.R;phot.mag;stat.min:false:false:false:26:11
+285:gdr2.vari_rotation_modulation:rp_unspotted_error:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:27:11
+286:gdr2.vari_rotation_modulation:solution_id:long:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:28:11
+287:gdr2.vari_rotation_modulation:source_id:long:NULL:NULL:NULL:NULL:NULL:NULL:false:true:false:29:11
+288:gdr2.vari_rotation_modulation:num_segments:int:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:30:11
+289:gdr2.vari_rotation_modulation:segments_start_time:array:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:31:11
+290:gdr2.vari_rotation_modulation:segments_end_time:array:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:32:11
+291:gdr2.vari_rotation_modulation:segments_colour_mag_intercept:array:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:33:11
+292:gdr2.vari_rotation_modulation:segments_colour_mag_intercept_error:array:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:34:11
+293:gdr2.vari_rotation_modulation:segments_colour_mag_slope:array:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:35:11
+294:gdr2.vari_rotation_modulation:segments_colour_mag_slope_error:array:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:36:11
+295:gdr2.vari_rotation_modulation:segments_correlation_coefficient:array:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:37:11
+296:gdr2.vari_rotation_modulation:segments_correlation_significance:array:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:38:11
+297:gdr2.vari_rotation_modulation:num_outliers:int:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:39:11
+298:gdr2.vari_rotation_modulation:outliers_time:array:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:40:11
+313:gdr2.vari_rrlyrae:best_classification:char:4000:4000:"Best RR Lyrae classification estimate out of, {""RRC"", ""RRAB"", ""RRD""}":NULL:NULL:meta.code.class;src.class:false:true:false:1:14
+314:gdr2.vari_rrlyrae:solution_id:long:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:2:14
+315:gdr2.vari_rrlyrae:source_id:long:NULL:NULL:NULL:NULL:NULL:NULL:false:true:false:3:14
+316:gdr2.vari_rrlyrae:pf:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:4:14
+317:gdr2.vari_rrlyrae:pf_error:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:5:14
+318:gdr2.vari_rrlyrae:p1_o:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:6:14
+319:gdr2.vari_rrlyrae:p1_o_error:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:7:14
+320:gdr2.vari_rrlyrae:p2_o:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:8:14
+321:gdr2.vari_rrlyrae:p2_o_error:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:9:14
+322:gdr2.vari_rrlyrae:p3_o:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:10:14
+323:gdr2.vari_rrlyrae:p3_o_error:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:11:14
+324:gdr2.vari_rrlyrae:epoch_g:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:12:14
+325:gdr2.vari_rrlyrae:epoch_g_error:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:13:14
+326:gdr2.vari_rrlyrae:epoch_bp:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:14:14
+327:gdr2.vari_rrlyrae:epoch_bp_error:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:15:14
+328:gdr2.vari_rrlyrae:epoch_rp:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:16:14
+329:gdr2.vari_rrlyrae:epoch_rp_error:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:17:14
+330:gdr2.vari_rrlyrae:int_average_g:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:18:14
+331:gdr2.vari_rrlyrae:int_average_g_error:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:19:14
+332:gdr2.vari_rrlyrae:int_average_bp:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:20:14
+333:gdr2.vari_rrlyrae:int_average_bp_error:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:21:14
+334:gdr2.vari_rrlyrae:int_average_rp:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:22:14
+335:gdr2.vari_rrlyrae:int_average_rp_error:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:23:14
+336:gdr2.vari_rrlyrae:peak_to_peak_g:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:24:14
+337:gdr2.vari_rrlyrae:peak_to_peak_g_error:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:25:14
+338:gdr2.vari_rrlyrae:peak_to_peak_bp:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:26:14
+339:gdr2.vari_rrlyrae:peak_to_peak_bp_error:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:27:14
+340:gdr2.vari_rrlyrae:peak_to_peak_rp:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:28:14
+341:gdr2.vari_rrlyrae:peak_to_peak_rp_error:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:29:14
+342:gdr2.vari_rrlyrae:metallicity:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:30:14
+343:gdr2.vari_rrlyrae:metallicity_error:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:31:14
+344:gdr2.vari_rrlyrae:r21_g:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:32:14
+345:gdr2.vari_rrlyrae:r21_g_error:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:33:14
+346:gdr2.vari_rrlyrae:r31_g:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:34:14
+347:gdr2.vari_rrlyrae:r31_g_error:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:35:14
+348:gdr2.vari_rrlyrae:phi21_g:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:36:14
+349:gdr2.vari_rrlyrae:phi21_g_error:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:37:14
+350:gdr2.vari_rrlyrae:phi31_g:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:38:14
+351:gdr2.vari_rrlyrae:phi31_g_error:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:39:14
+352:gdr2.vari_rrlyrae:num_clean_epochs_g:int:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:40:14
+353:gdr2.vari_rrlyrae:num_clean_epochs_bp:int:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:41:14
+354:gdr2.vari_rrlyrae:num_clean_epochs_rp:int:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:42:14
+355:gdr2.vari_rrlyrae:g_absorption:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:43:14
+356:gdr2.vari_rrlyrae:g_absorption_error:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:44:14
+412:gdr2.vari_short_timescale:solution_id:long:NULL:NULL:Solution Identifier:NULL:NULL:meta.version:true:false:false:1:23
+414:gdr2.vari_short_timescale:amplitude_estimate:double:NULL:NULL:Amplitude estimate of all per CCD G-band photometry (quantile(95%)-quantile(5%)):NULL:Magnitude[mag]:src.var.amplitude;phot.mag;em.opt:false:false:false:3:23
+415:gdr2.vari_short_timescale:number_of_fov_transits:int:NULL:NULL:Number of FoV transits with more than 7 CCD measurements after time series cleaning:NULL:NULL:meta.number:false:false:false:4:23
+416:gdr2.vari_short_timescale:mean_of_fov_abbe_values:double:NULL:NULL:Mean of per-FOV Abbe values derived from CCD G-band photometry:NULL:NULL:stat.value:false:false:false:5:23
+417:gdr2.vari_short_timescale:variogram_num_points:int:NULL:NULL:Number of points in the variogram:NULL:NULL:meta.number:false:false:false:6:23
+418:gdr2.vari_short_timescale:variogram_char_timescales:array:NULL:NULL:Characteristic time scales of variability:NULL:Time[day]:time:false:false:false:7:23
+419:gdr2.vari_short_timescale:variogram_values:array:NULL:NULL:Variogram values associated with the variogramCharTimescales:NULL:Misc[mag**2]:stat.value:false:false:false:8:23
+420:gdr2.vari_short_timescale:frequency:double:NULL:NULL:"Frequency search result for either G CCD, G FoV, BP or RP photometry (Null if no periodicity detected)":NULL:Frequency[day^-1]:src.var;time.period:false:false:false:9:23
+421:gdr2.vari_time_series_statistics:solution_id:long:NULL:NULL:Solution Identifier:NULL:NULL:meta.version:true:false:false:1:24
+422:gdr2.vari_time_series_statistics:source_id:long:NULL:NULL:Unique source identifier:NULL:NULL:meta.id;meta.main:true:true:false:2:24
+423:gdr2.vari_time_series_statistics:num_selected_g_fov:int:NULL:NULL:Total number of G FOV transits selected for variability analysis:NULL:NULL:meta.number:false:false:false:3:24
+424:gdr2.vari_time_series_statistics:mean_obs_time_g_fov:double:NULL:NULL:Mean observation time for G FoV transits:NULL:Time[Barycentric JD in TCB - 2455197.5 (day)]:stat.mean;time:false:false:false:4:24
+425:gdr2.vari_time_series_statistics:time_duration_g_fov:double:NULL:NULL:Time duration of the time series for G FoV transits:NULL:Time[day]:time.duration:false:false:false:5:24
+426:gdr2.vari_time_series_statistics:min_mag_g_fov:double:NULL:NULL:Minimum G FoV magnitude:NULL:Magnitude[mag]:em.opt;phot.mag;stat.min:false:false:false:6:24
+427:gdr2.vari_time_series_statistics:max_mag_g_fov:double:NULL:NULL:Maximum G FoV magnitude:NULL:Magnitude[mag]:em.opt;phot.mag;stat.max:false:false:false:7:24
+428:gdr2.vari_time_series_statistics:mean_mag_g_fov:double:NULL:NULL:Mean G FoV magnitude:NULL:Magnitude[mag]:em.opt;phot.mag;stat.mean:false:false:false:8:24
+429:gdr2.vari_time_series_statistics:median_mag_g_fov:double:NULL:NULL:Median G FoV magnitude:NULL:Magnitude[mag]:em.opt;phot.mag;stat.median:false:false:false:9:24
+430:gdr2.vari_time_series_statistics:range_mag_g_fov:double:NULL:NULL:Difference between the highest and lowest G FoV magnitudes:NULL:Magnitude[mag]:em.opt;phot.mag;arith.diff:false:false:false:10:24
+431:gdr2.vari_time_series_statistics:std_dev_mag_g_fov:double:NULL:NULL:Square root of the unweighted G FoV magnitude variance:NULL:Magnitude[mag]:em.opt;phot.mag;stat.stdev:false:false:false:11:24
+432:gdr2.vari_time_series_statistics:skewness_mag_g_fov:double:NULL:NULL:Standardized unweighted G FoV magnitude skewness:NULL:NULL:em.opt;phot.mag;stat.value:false:false:false:12:24
+433:gdr2.vari_time_series_statistics:kurtosis_mag_g_fov:double:NULL:NULL:Standardized unweighted G FoV magnitude kurtosis:NULL:NULL:em.opt;phot.mag;stat.value:false:false:false:13:24
+434:gdr2.vari_time_series_statistics:mad_mag_g_fov:double:NULL:NULL:Median Absolute Deviation (MAD) for G FoV transits:NULL:Magnitude[mag]:em.opt;phot.mag;stat.value:false:false:false:14:24
+435:gdr2.vari_time_series_statistics:abbe_mag_g_fov:double:NULL:NULL:Abbe value for G FoV transits:NULL:NULL:em.opt;phot.mag;stat.value:false:false:false:15:24
+436:gdr2.vari_time_series_statistics:iqr_mag_g_fov:double:NULL:NULL:Interquartile range for G FoV transits:NULL:Magnitude[mag]:em.opt;phot.mag;stat.value:false:false:false:16:24
+437:gdr2.vari_time_series_statistics:num_selected_bp:int:NULL:NULL:Total number of BP observations selected for variability analysis:NULL:NULL:meta.number:false:false:false:17:24
+438:gdr2.vari_time_series_statistics:mean_obs_time_bp:double:NULL:NULL:Mean observation time for BP observations:NULL:Time[Barycentric JD in TCB - 2455197.5 (day)]:stat.mean;time:false:false:false:18:24
+439:gdr2.vari_time_series_statistics:time_duration_bp:double:NULL:NULL:Time duration of the BP time series:NULL:Time[day]:time.duration:false:false:false:19:24
+440:gdr2.vari_time_series_statistics:min_mag_bp:double:NULL:NULL:Minimum BP magnitude:NULL:Magnitude[mag]:em.opt.B;phot.mag;stat.min:false:false:false:20:24
+441:gdr2.vari_time_series_statistics:max_mag_bp:double:NULL:NULL:Maximum BP magnitude:NULL:Magnitude[mag]:em.opt.B;phot.mag;stat.max:false:false:false:21:24
+442:gdr2.vari_time_series_statistics:mean_mag_bp:double:NULL:NULL:Mean BP magnitude:NULL:Magnitude[mag]:em.opt.B;phot.mag;stat.mean:false:false:false:22:24
+443:gdr2.vari_time_series_statistics:median_mag_bp:double:NULL:NULL:Median BP magnitude:NULL:Magnitude[mag]:em.opt.B;phot.mag;stat.median:false:false:false:23:24
+444:gdr2.vari_time_series_statistics:range_mag_bp:double:NULL:NULL:Difference between the highest and lowest BP magnitudes:NULL:Magnitude[mag]:em.opt.B;phot.mag;arith.diff:false:false:false:24:24
+445:gdr2.vari_time_series_statistics:std_dev_mag_bp:double:NULL:NULL:Square root of the unweighted BP magnitude variance:NULL:Magnitude[mag]:em.opt.B;phot.mag;stat.stdev:false:false:false:25:24
+446:gdr2.vari_time_series_statistics:skewness_mag_bp:double:NULL:NULL:Standardized unweighted BP magnitude skewness:NULL:NULL:em.opt.B;phot.mag;stat.value:false:false:false:26:24
+447:gdr2.vari_time_series_statistics:kurtosis_mag_bp:double:NULL:NULL:Standardized unweighted BP magnitude kurtosis:NULL:NULL:em.opt.B;phot.mag;stat.value:false:false:false:27:24
+448:gdr2.vari_time_series_statistics:mad_mag_bp:double:NULL:NULL:Median Absolute Deviation (MAD) for BP observations:NULL:Magnitude[mag]:em.opt.B;phot.mag;stat.value:false:false:false:28:24
+449:gdr2.vari_time_series_statistics:abbe_mag_bp:double:NULL:NULL:Abbe value for BP observations:NULL:NULL:em.opt.B;phot.mag;stat.value:false:false:false:29:24
+450:gdr2.vari_time_series_statistics:iqr_mag_bp:double:NULL:NULL:Interquartile BP magnitude range:NULL:Magnitude[mag]:em.opt.B;phot.mag;stat.value:false:false:false:30:24
+451:gdr2.vari_time_series_statistics:num_selected_rp:int:NULL:NULL:Total number of RP observations selected for variability analysis:NULL:NULL:meta.number:false:false:false:31:24
+452:gdr2.vari_time_series_statistics:mean_obs_time_rp:double:NULL:NULL:Mean observation time for RP observations:NULL:Time[Barycentric JD in TCB - 2455197.5 (day)]:stat.mean;time:false:false:false:32:24
+453:gdr2.vari_time_series_statistics:time_duration_rp:double:NULL:NULL:Time duration of the RP time series:NULL:Time[day]:time.duration:false:false:false:33:24
+454:gdr2.vari_time_series_statistics:min_mag_rp:double:NULL:NULL:Minimum RP magnitude:NULL:Magnitude[mag]:em.opt.R;phot.mag;stat.min:false:false:false:34:24
+455:gdr2.vari_time_series_statistics:max_mag_rp:double:NULL:NULL:Maximum RP magnitude:NULL:Magnitude[mag]:em.opt.R;phot.mag;stat.max:false:false:false:35:24
+456:gdr2.vari_time_series_statistics:mean_mag_rp:double:NULL:NULL:Mean RP magnitude:NULL:Magnitude[mag]:em.opt.R;phot.mag;stat.mean:false:false:false:36:24
+457:gdr2.vari_time_series_statistics:median_mag_rp:double:NULL:NULL:Median RP magnitude:NULL:Magnitude[mag]:em.opt.R;phot.mag;stat.median:false:false:false:37:24
+458:gdr2.vari_time_series_statistics:range_mag_rp:double:NULL:NULL:Difference between the highest and lowest RP magnitudes:NULL:Magnitude[mag]:em.opt.R;phot.mag;arith.diff:false:false:false:38:24
+459:gdr2.vari_time_series_statistics:std_dev_mag_rp:double:NULL:NULL:Square root of the unweighted RP magnitude variance:NULL:Magnitude[mag]:em.opt.R;phot.mag;stat.stdev:false:false:false:39:24
+460:gdr2.vari_time_series_statistics:skewness_mag_rp:double:NULL:NULL:Standardized unweighted RP magnitude skewness:NULL:NULL:em.opt.R;phot.mag;stat.value:false:false:false:40:24
+461:gdr2.vari_time_series_statistics:kurtosis_mag_rp:double:NULL:NULL:Standardized unweighted RP magnitude kurtosis:NULL:NULL:em.opt.R;phot.mag;stat.value:false:false:false:41:24
+462:gdr2.vari_time_series_statistics:mad_mag_rp:double:NULL:NULL:Median Absolute Deviation (MAD) for RP observations:NULL:Magnitude[mag]:em.opt.R;phot.mag;stat.value:false:false:false:42:24
+463:gdr2.vari_time_series_statistics:abbe_mag_rp:double:NULL:NULL:Abbe value for RP observations:NULL:NULL:em.opt.R;phot.mag;stat.value:false:false:false:43:24
+464:gdr2.vari_time_series_statistics:iqr_mag_rp:double:NULL:NULL:Interquartile RP magnitude range:NULL:Magnitude[mag]:em.opt.R;phot.mag;stat.value:false:false:false:44:24
+566:gdr2.epoch_photometry:solution_id:long:NULL:NULL:Solution Identifier:NULL:NULL:meta.version:true:false:false:1:33
+567:gdr2.epoch_photometry:source_id:long:NULL:NULL:Source Identifier:NULL:NULL:meta.id;meta.main:true:true:false:2:33
+568:gdr2.epoch_photometry:n_transits:short:NULL:NULL:Number of Gaia transits:NULL:NULL:meta.number:false:false:false:3:33
+569:gdr2.epoch_photometry:transit_id:array:NULL:NULL:Transit Identifier:NULL:NULL:meta.id:false:false:false:4:33
+570:gdr2.epoch_photometry:g_transit_time:array:NULL:NULL:transit averaged G band observation time:NULL:Time[Barycentric JD in TCB - 2455197.5 (day)]:time.epoch:false:true:false:5:33
+571:gdr2.epoch_photometry:g_transit_flux:array:NULL:NULL:transit averaged G band flux:NULL:Flux[e-/s]:em.opt;phot.flux;stat.mean:false:false:false:6:33
+572:gdr2.epoch_photometry:g_transit_flux_error:array:NULL:NULL:Error on the transit averaged G band flux:NULL:Flux[e-/s]:em.opt;phot.flux;stat.error:false:false:false:7:33
+573:gdr2.epoch_photometry:g_transit_flux_over_error:array:NULL:NULL:transit averaged G band flux divided by its error:NULL:NULL:arith.ratio:false:true:false:8:33
+574:gdr2.epoch_photometry:g_transit_mag:array:NULL:NULL:transit averaged G band magnitude (converted from transit averaged G band flux):NULL:Magnitude[mag]:phot.mag;em.opt:false:false:false:9:33
+575:gdr2.epoch_photometry:bp_obs_time:array:NULL:NULL:BP CCD transit observation time:NULL:Time[Barycentric JD in TCB - 2455197.5 (day)]:time.epoch:false:false:false:10:33
+576:gdr2.epoch_photometry:bp_flux:array:NULL:NULL:BP band flux:NULL:Flux[e-/s]:em.opt.B;phot.flux;stat.mean:false:false:false:11:33
+577:gdr2.epoch_photometry:bp_flux_error:array:NULL:NULL:Error on the BP band flux:NULL:Flux[e-/s]:em.opt.B;phot.flux;stat.error:false:false:false:12:33
+578:gdr2.epoch_photometry:bp_flux_over_error:array:NULL:NULL:BP band flux divided by its error:NULL:NULL:arith.ratio:false:true:false:13:33
+579:gdr2.epoch_photometry:bp_mag:array:NULL:NULL:BP band magnitude (converted from BP band flux):NULL:Magnitude[mag]:em.opt.B;phot.mag:false:true:false:14:33
+580:gdr2.epoch_photometry:rp_obs_time:array:NULL:NULL:RP CCD transit observation time:NULL:Time[Barycentric JD in TCB - 2455197.5 (day)]:time.epoch:false:false:false:15:33
+581:gdr2.epoch_photometry:rp_flux:array:NULL:NULL:RP band flux:NULL:Flux[e-/s]:em.opt.R;phot.flux;stat.mean:false:false:false:16:33
+582:gdr2.epoch_photometry:rp_flux_error:array:NULL:NULL:Error on the RP band flux:NULL:Flux[e-/s]:em.opt.R;phot.flux;stat.error:false:false:false:17:33
+583:gdr2.epoch_photometry:rp_flux_over_error:array:NULL:NULL:RP band flux divided by its error:NULL:NULL:arith.ratio:false:true:false:18:33
+584:gdr2.epoch_photometry:rp_mag:array:NULL:NULL:RP band magnitude (converted from RP band flux):NULL:Magnitude[mag]:phot.mag;em.opt.R:false:true:false:19:33
+585:gdr2.epoch_photometry:photometry_flag_noisy_data:array:NULL:NULL:G band flux scatter larger than expected by photometry processing (all CCDs considered):NULL:NULL:meta.code.status:false:false:false:20:33
+586:gdr2.epoch_photometry:photometry_flag_sm_unavailable:array:NULL:NULL:SM transit unavailable by photometry processing:NULL:NULL:meta.code.status:false:false:false:21:33
+587:gdr2.epoch_photometry:photometry_flag_af1_unavailable:array:NULL:NULL:AF1 transit unavailable by photometry processing:NULL:NULL:meta.code.status:false:false:false:22:33
+588:gdr2.epoch_photometry:photometry_flag_af2_unavailable:array:NULL:NULL:AF2 transit unavailable by photometry processing:NULL:NULL:meta.code.status:false:false:false:23:33
+589:gdr2.epoch_photometry:photometry_flag_af3_unavailable:array:NULL:NULL:AF3 transit unavailable by photometry processing:NULL:NULL:meta.code.status:false:false:false:24:33
+590:gdr2.epoch_photometry:photometry_flag_af4_unavailable:array:NULL:NULL:AF4 transit unavailable by photometry processing:NULL:NULL:meta.code.status:false:false:false:25:33
+591:gdr2.epoch_photometry:photometry_flag_af5_unavailable:array:NULL:NULL:AF5 transit unavailable by photometry processing:NULL:NULL:meta.code.status:false:false:false:26:33
+592:gdr2.epoch_photometry:photometry_flag_af6_unavailable:array:NULL:NULL:AF6 transit unavailable by photometry processing:NULL:NULL:meta.code.status:false:false:false:27:33
+593:gdr2.epoch_photometry:photometry_flag_af7_unavailable:array:NULL:NULL:AF7 transit unavailable by photometry processing:NULL:NULL:meta.code.status:false:false:false:28:33
+594:gdr2.epoch_photometry:photometry_flag_af8_unavailable:array:NULL:NULL:AF8 transit unavailable by photometry processing:NULL:NULL:meta.code.status:false:false:false:29:33
+595:gdr2.epoch_photometry:photometry_flag_af9_unavailable:array:NULL:NULL:AF9 transit unavailable by photometry processing:NULL:NULL:meta.code.status:false:false:false:30:33
+596:gdr2.epoch_photometry:photometry_flag_bp_unavailable:array:NULL:NULL:BP transit unavailable by photometry processing:NULL:NULL:meta.code.status:false:false:false:31:33
+597:gdr2.epoch_photometry:photometry_flag_rp_unavailable:array:NULL:NULL:RP transit unavailable by photometry processing:NULL:NULL:meta.code.status:false:false:false:32:33
+598:gdr2.epoch_photometry:photometry_flag_sm_reject:array:NULL:NULL:SM transit rejected by photometry processing:NULL:NULL:meta.code.status:false:false:false:33:33
+599:gdr2.epoch_photometry:photometry_flag_af1_reject:array:NULL:NULL:AF1 transit rejected by photometry processing:NULL:NULL:meta.code.status:false:false:false:34:33
+600:gdr2.epoch_photometry:photometry_flag_af2_reject:array:NULL:NULL:AF2 transit rejected by photometry processing:NULL:NULL:meta.code.status:false:false:false:35:33
+601:gdr2.epoch_photometry:photometry_flag_af3_reject:array:NULL:NULL:AF3 transit rejected by photometry processing:NULL:NULL:meta.code.status:false:false:false:36:33
+602:gdr2.epoch_photometry:photometry_flag_af4_reject:array:NULL:NULL:AF4 transit rejected by photometry processing:NULL:NULL:meta.code.status:false:false:false:37:33
+603:gdr2.epoch_photometry:photometry_flag_af5_reject:array:NULL:NULL:AF5 transit rejected by photometry processing:NULL:NULL:meta.code.status:false:false:false:38:33
+604:gdr2.epoch_photometry:photometry_flag_af6_reject:array:NULL:NULL:AF6 transit rejected by photometry processing:NULL:NULL:meta.code.status:false:false:false:39:33
+605:gdr2.epoch_photometry:photometry_flag_af7_reject:array:NULL:NULL:AF7 transit rejected by photometry processing:NULL:NULL:meta.code.status:false:false:false:40:33
+606:gdr2.epoch_photometry:photometry_flag_af8_reject:array:NULL:NULL:AF8 transit rejected by photometry processing:NULL:NULL:meta.code.status:false:false:false:41:33
+607:gdr2.epoch_photometry:photometry_flag_af9_reject:array:NULL:NULL:AF9 transit rejected by photometry processing:NULL:NULL:meta.code.status:false:false:false:42:33
+608:gdr2.epoch_photometry:photometry_flag_bp_reject:array:NULL:NULL:BP transit rejected by photometry processing:NULL:NULL:meta.code.status:false:false:false:43:33
+609:gdr2.epoch_photometry:photometry_flag_rp_reject:array:NULL:NULL:RP transit rejected by photometry processing:NULL:NULL:meta.code.status:false:false:false:44:33
+610:gdr2.epoch_photometry:variability_flag_g_reject:array:NULL:NULL:Average G transit photometry rejected by variability processing:NULL:NULL:meta.code.status:false:false:false:45:33
+611:gdr2.epoch_photometry:variability_flag_bp_reject:array:NULL:NULL:BP transit photometry rejected by variability processing:NULL:NULL:meta.code.status:false:false:false:46:33
+612:gdr2.epoch_photometry:variability_flag_rp_reject:array:NULL:NULL:RP transit photometry rejected by variability processing:NULL:NULL:meta.code.status:false:false:false:47:33
+393:gdr2.dr1_neighbourhood:dr1_source_id:long:NULL:NULL:Source identifier in Gaia DR1:NULL:NULL:meta.id.cross:false:false:false:1:20
+394:gdr2.dr1_neighbourhood:dr2_source_id:long:NULL:NULL:Source identifier in Gaia DR2:NULL:NULL:meta.id.cross;meta.main:false:false:false:2:20
+395:gdr2.dr1_neighbourhood:angular_distance:float:NULL:NULL:Angular distance between the two sources:NULL:Angle[arcsec]:pos.angDistance:false:false:false:3:20
+396:gdr2.dr1_neighbourhood:magnitude_difference:float:NULL:NULL:G band magnitude difference between the sources:NULL:Magnitude[mag]:arith.diff;phot.mag:false:false:false:4:20
+397:gdr2.dr1_neighbourhood:rank:float:NULL:NULL:Rank metric indicating relative probability of a good match:NULL:NULL:stat.probability:false:false:false:5:20
+357:gdr2.allwise_best_neighbour:allwise_oid:long:NULL:NULL:External Catalogue source identifier:NULL:NULL:meta.id.cross:false:true:false:1:15
+358:gdr2.allwise_best_neighbour:number_of_neighbours:int:NULL:NULL:Number of neighbours in External Catalogue:NULL:NULL:meta.number:false:true:false:2:15
+359:gdr2.allwise_best_neighbour:number_of_mates:short:NULL:NULL:Number of mates in Gaia Catalogue:NULL:NULL:meta.number:false:true:false:3:15
+360:gdr2.allwise_best_neighbour:best_neighbour_multiplicity:short:NULL:NULL:Number of neighbours with same probability as best neighbour:NULL:NULL:meta.number:false:true:false:4:15
+361:gdr2.allwise_best_neighbour:source_id:long:NULL:NULL:NULL:NULL:NULL:NULL:false:true:false:5:15
+362:gdr2.allwise_best_neighbour:original_ext_source_id:char:4000:4000:NULL:NULL:NULL:NULL:false:true:false:6:15
+363:gdr2.allwise_best_neighbour:angular_distance:double:NULL:NULL:NULL:NULL:NULL:NULL:false:true:false:7:15
+364:gdr2.allwise_best_neighbour:gaia_astrometric_params:short:NULL:NULL:NULL:NULL:NULL:NULL:false:true:false:8:15
+373:gdr2.allwise_neighbourhood:allwise_oid:long:NULL:NULL:External Catalogue source identifier:NULL:NULL:meta.id.cross:false:true:false:1:17
+374:gdr2.allwise_neighbourhood:source_id:long:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:2:17
+375:gdr2.allwise_neighbourhood:original_ext_source_id:char:4000:4000:NULL:NULL:NULL:NULL:false:true:false:3:17
+376:gdr2.allwise_neighbourhood:angular_distance:double:NULL:NULL:NULL:NULL:NULL:NULL:false:true:false:4:17
+377:gdr2.allwise_neighbourhood:score:double:NULL:NULL:NULL:NULL:NULL:NULL:false:true:false:5:17
+378:gdr2.allwise_neighbourhood:gaia_astrometric_params:short:NULL:NULL:NULL:NULL:NULL:NULL:false:true:false:6:17
+379:gdr2.apassdr9_best_neighbour:apassdr9_oid:long:NULL:NULL:External Catalogue source identifier:NULL:NULL:meta.id.cross:false:true:false:1:18
+380:gdr2.apassdr9_best_neighbour:number_of_neighbours:int:NULL:NULL:Number of neighbours in External Catalogue:NULL:NULL:meta.number:false:false:false:2:18
+381:gdr2.apassdr9_best_neighbour:number_of_mates:short:NULL:NULL:Number of mates in Gaia Catalogue:NULL:NULL:meta.number:false:false:false:3:18
+382:gdr2.apassdr9_best_neighbour:best_neighbour_multiplicity:short:NULL:NULL:Number of neighbours with same probability as best neighbour:NULL:NULL:meta.number:false:false:false:4:18
+383:gdr2.apassdr9_best_neighbour:source_id:long:NULL:NULL:NULL:NULL:NULL:NULL:false:true:false:5:18
+384:gdr2.apassdr9_best_neighbour:original_ext_source_id:char:4000:4000:NULL:NULL:NULL:NULL:false:true:false:6:18
+385:gdr2.apassdr9_best_neighbour:angular_distance:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:7:18
+386:gdr2.apassdr9_best_neighbour:gaia_astrometric_params:short:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:8:18
+387:gdr2.apassdr9_neighbourhood:apassdr9_oid:long:NULL:NULL:External Catalogue source identifier:NULL:NULL:meta.id.cross:false:true:false:1:19
+388:gdr2.apassdr9_neighbourhood:source_id:long:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:2:19
+389:gdr2.apassdr9_neighbourhood:original_ext_source_id:char:4000:4000:NULL:NULL:NULL:NULL:false:true:false:3:19
+390:gdr2.apassdr9_neighbourhood:angular_distance:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:4:19
+391:gdr2.apassdr9_neighbourhood:score:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:5:19
+392:gdr2.apassdr9_neighbourhood:gaia_astrometric_params:short:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:6:19
+365:gdr2.gsc23_best_neighbour:gsc23_oid:long:NULL:NULL:External Catalogue source identifier:NULL:NULL:meta.id.cross:false:false:false:1:16
+366:gdr2.gsc23_best_neighbour:number_of_neighbours:int:NULL:NULL:Number of neighbours in External Catalogue:NULL:NULL:meta.number:false:false:false:2:16
+367:gdr2.gsc23_best_neighbour:number_of_mates:short:NULL:NULL:Number of mates in Gaia Catalogue:NULL:NULL:meta.number:false:false:false:3:16
+368:gdr2.gsc23_best_neighbour:best_neighbour_multiplicity:short:NULL:NULL:Number of neighbours with same probability as best neighbour:NULL:NULL:meta.number:false:false:false:4:16
+369:gdr2.gsc23_best_neighbour:source_id:long:NULL:NULL:NULL:NULL:NULL:NULL:false:true:false:5:16
+370:gdr2.gsc23_best_neighbour:original_ext_source_id:char:4000:4000:NULL:NULL:NULL:NULL:false:false:false:6:16
+371:gdr2.gsc23_best_neighbour:angular_distance:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:7:16
+372:gdr2.gsc23_best_neighbour:gaia_astrometric_params:short:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:8:16
+398:gdr2.gsc23_neighbourhood:gsc23_oid:long:NULL:NULL:External Catalogue source identifier:NULL:NULL:meta.id.cross:false:false:false:1:21
+399:gdr2.gsc23_neighbourhood:source_id:long:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:2:21
+400:gdr2.gsc23_neighbourhood:original_ext_source_id:char:4000:4000:NULL:NULL:NULL:NULL:false:false:false:3:21
+401:gdr2.gsc23_neighbourhood:angular_distance:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:4:21
+402:gdr2.gsc23_neighbourhood:score:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:5:21
+403:gdr2.gsc23_neighbourhood:gaia_astrometric_params:short:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:6:21
+465:gdr2.hipparcos2_best_neighbour:source_id:long:NULL:NULL:Unique Gaia source identifier:NULL:NULL:meta.id;meta.main:true:true:false:1:25
+466:gdr2.hipparcos2_best_neighbour:original_ext_source_id:long:NULL:NULL:Original External Catalogue source identifier:NULL:NULL:meta.id.cross:false:false:false:2:25
+467:gdr2.hipparcos2_best_neighbour:angular_distance:double:NULL:NULL:Angular Distance between the two sources:NULL:Angle[arcsec]:pos.angDistance:false:false:false:3:25
+468:gdr2.hipparcos2_best_neighbour:number_of_neighbours:int:NULL:NULL:Number of neighbours in Gaia Catalogue:NULL:NULL:meta.number:false:false:false:4:25
+469:gdr2.hipparcos2_best_neighbour:gaia_astrometric_params:short:NULL:NULL:Number of Gaia astrometric params used:NULL:NULL:meta.code.status:false:false:false:5:25
+470:gdr2.hipparcos2_neighbourhood:source_id:long:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:1:26
+471:gdr2.hipparcos2_neighbourhood:original_ext_source_id:long:NULL:NULL:Original External Catalogue source identifier:NULL:NULL:meta.id.cross:false:false:false:2:26
+472:gdr2.hipparcos2_neighbourhood:angular_distance:double:NULL:NULL:Angular Distance between the two sources:NULL:Angle[arcsec]:pos.angDistance:false:false:false:3:26
+473:gdr2.hipparcos2_neighbourhood:score:double:NULL:NULL:Score of neighbours:NULL:NULL:meta.code:false:false:false:4:26
+474:gdr2.hipparcos2_neighbourhood:gaia_astrometric_params:short:NULL:NULL:Number of Gaia astrometric params used:NULL:NULL:meta.code.status:false:false:false:5:26
+475:gdr2.panstarrs1_best_neighbour:source_id:long:NULL:NULL:Unique Gaia source identifier:NULL:NULL:meta.id;meta.main:true:true:false:1:27
+476:gdr2.panstarrs1_best_neighbour:original_ext_source_id:long:NULL:NULL:Original External Catalogue source identifier:NULL:NULL:meta.id.cross:false:false:false:2:27
+477:gdr2.panstarrs1_best_neighbour:angular_distance:double:NULL:NULL:Angular Distance between the two sources:NULL:Angle[arcsec]:pos.angDistance:false:false:false:3:27
+478:gdr2.panstarrs1_best_neighbour:number_of_neighbours:int:NULL:NULL:Number of neighbours in External Catalogue:NULL:NULL:meta.number:false:false:false:4:27
+479:gdr2.panstarrs1_best_neighbour:number_of_mates:short:NULL:NULL:Number of mates in Gaia Catalogue:NULL:NULL:meta.number:false:false:false:5:27
+480:gdr2.panstarrs1_best_neighbour:best_neighbour_multiplicity:short:NULL:NULL:Number of neighbours with same probability as best neighbour:NULL:NULL:meta.number:false:false:false:6:27
+481:gdr2.panstarrs1_best_neighbour:gaia_astrometric_params:short:NULL:NULL:Number of Gaia astrometric params used:NULL:NULL:meta.code.status:false:false:false:7:27
+647:gdr2.panstarrs1_neighbourhood:source_id:long:NULL:NULL:Unique Gaia source identifier:NULL:NULL:meta.id;meta.main:true:false:false:1:37
+648:gdr2.panstarrs1_neighbourhood:original_ext_source_id:long:NULL:NULL:Original External Catalogue source identifier:NULL:NULL:meta.id.cross:false:false:false:2:37
+649:gdr2.panstarrs1_neighbourhood:angular_distance:double:NULL:NULL:Angular Distance between the two sources:NULL:Angle[arcsec]:pos.angDistance:false:false:false:3:37
+650:gdr2.panstarrs1_neighbourhood:score:double:NULL:NULL:Score of neighbours:NULL:NULL:meta.code:false:false:false:4:37
+651:gdr2.panstarrs1_neighbourhood:gaia_astrometric_params:short:NULL:NULL:Number of Gaia astrometric params used:NULL:NULL:meta.code.status:false:false:false:5:37
+652:gdr2.ppmxl_best_neighbour:ppmxl_oid:long:NULL:NULL:External Catalogue source identifier:NULL:NULL:meta.id.cross:false:false:false:1:38
+653:gdr2.ppmxl_best_neighbour:number_of_neighbours:int:NULL:NULL:Number of neighbours in External Catalogue:NULL:NULL:meta.number:false:false:false:2:38
+654:gdr2.ppmxl_best_neighbour:number_of_mates:short:NULL:NULL:Number of mates in Gaia Catalogue:NULL:NULL:meta.number:false:false:false:3:38
+655:gdr2.ppmxl_best_neighbour:best_neighbour_multiplicity:short:NULL:NULL:Number of neighbours with same probability as best neighbour:NULL:NULL:meta.number:false:false:false:4:38
+656:gdr2.ppmxl_best_neighbour:source_id:long:NULL:NULL:NULL:NULL:NULL:NULL:false:true:false:5:38
+657:gdr2.ppmxl_best_neighbour:original_ext_source_id:char:4000:4000:NULL:NULL:NULL:NULL:false:false:false:6:38
+658:gdr2.ppmxl_best_neighbour:angular_distance:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:7:38
+659:gdr2.ppmxl_best_neighbour:gaia_astrometric_params:short:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:8:38
+660:gdr2.ppmxl_neighbourhood:ppmxl_oid:long:NULL:NULL:External Catalogue source identifier:NULL:NULL:meta.id.:false:false:false:1:39
+661:gdr2.ppmxl_neighbourhood:source_id:long:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:2:39
+662:gdr2.ppmxl_neighbourhood:original_ext_source_id:char:4000:4000:NULL:NULL:NULL:NULL:false:false:false:3:39
+663:gdr2.ppmxl_neighbourhood:angular_distance:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:4:39
+664:gdr2.ppmxl_neighbourhood:score:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:5:39
+665:gdr2.ppmxl_neighbourhood:gaia_astrometric_params:short:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:6:39
+666:gdr2.ravedr5_best_neighbour:ravedr5_oid:long:NULL:NULL:External Catalogue source identifier:NULL:NULL:meta.id.cross:false:false:false:1:40
+667:gdr2.ravedr5_best_neighbour:number_of_neighbours:int:NULL:NULL:Number of neighbours in Gaia Catalogue:NULL:NULL:meta.number:false:false:false:2:40
+668:gdr2.ravedr5_best_neighbour:source_id:long:NULL:NULL:NULL:NULL:NULL:NULL:false:true:false:3:40
+669:gdr2.ravedr5_best_neighbour:original_ext_source_id:char:4000:4000:NULL:NULL:NULL:NULL:false:false:false:4:40
+670:gdr2.ravedr5_best_neighbour:angular_distance:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:5:40
+671:gdr2.ravedr5_best_neighbour:gaia_astrometric_params:short:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:6:40
+672:gdr2.ravedr5_neighbourhood:ravedr5_oid:long:NULL:NULL:External Catalogue source identifier:NULL:NULL:meta.id.cross:false:false:false:1:41
+673:gdr2.ravedr5_neighbourhood:source_id:long:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:2:41
+674:gdr2.ravedr5_neighbourhood:original_ext_source_id:char:4000:4000:NULL:NULL:NULL:NULL:false:false:false:3:41
+675:gdr2.ravedr5_neighbourhood:angular_distance:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:4:41
+676:gdr2.ravedr5_neighbourhood:score:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:5:41
+677:gdr2.ravedr5_neighbourhood:gaia_astrometric_params:short:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:6:41
+678:gdr2.sdssdr9_best_neighbour:sdssdr9_oid:long:NULL:NULL:External Catalogue source identifier:NULL:NULL:meta.id.cross:false:false:false:1:42
+679:gdr2.sdssdr9_best_neighbour:number_of_neighbours:int:NULL:NULL:Number of neighbours in External Catalogue:NULL:NULL:meta.number:false:false:false:2:42
+680:gdr2.sdssdr9_best_neighbour:number_of_mates:short:NULL:NULL:Number of mates in Gaia Catalogue:NULL:NULL:meta.number:false:false:false:3:42
+681:gdr2.sdssdr9_best_neighbour:best_neighbour_multiplicity:short:NULL:NULL:Number of neighbours with same probability as best neighbour:NULL:NULL:meta.number:false:false:false:4:42
+682:gdr2.sdssdr9_best_neighbour:source_id:long:NULL:NULL:NULL:NULL:NULL:NULL:false:true:false:5:42
+683:gdr2.sdssdr9_best_neighbour:original_ext_source_id:char:4000:4000:NULL:NULL:NULL:NULL:false:false:false:6:42
+684:gdr2.sdssdr9_best_neighbour:angular_distance:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:7:42
+685:gdr2.sdssdr9_best_neighbour:gaia_astrometric_params:short:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:8:42
+686:gdr2.sdssdr9_neighbourhood:sdssdr9_oid:long:NULL:NULL:External Catalogue source identifier:NULL:NULL:meta.id.cross:false:false:false:1:43
+687:gdr2.sdssdr9_neighbourhood:source_id:long:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:2:43
+688:gdr2.sdssdr9_neighbourhood:original_ext_source_id:char:4000:4000:NULL:NULL:NULL:NULL:false:false:false:3:43
+689:gdr2.sdssdr9_neighbourhood:angular_distance:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:4:43
+690:gdr2.sdssdr9_neighbourhood:score:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:5:43
+691:gdr2.sdssdr9_neighbourhood:gaia_astrometric_params:short:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:6:43
+692:gdr2.tmass_best_neighbour:tmass_oid:long:NULL:NULL:External Catalogue source identifier:NULL:NULL:meta.id.cross:false:false:false:1:44
+693:gdr2.tmass_best_neighbour:number_of_neighbours:int:NULL:NULL:Number of neighbours in External Catalogue:NULL:NULL:meta.number:false:false:false:2:44
+694:gdr2.tmass_best_neighbour:number_of_mates:short:NULL:NULL:Number of mates in Gaia Catalogue:NULL:NULL:meta.number:false:false:false:3:44
+695:gdr2.tmass_best_neighbour:best_neighbour_multiplicity:short:NULL:NULL:Number of neighbours with same probability as best neighbour:NULL:NULL:meta.number:false:false:false:4:44
+696:gdr2.tmass_best_neighbour:source_id:long:NULL:NULL:NULL:NULL:NULL:NULL:false:true:false:5:44
+697:gdr2.tmass_best_neighbour:original_ext_source_id:char:4000:4000:NULL:NULL:NULL:NULL:false:false:false:6:44
+698:gdr2.tmass_best_neighbour:angular_distance:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:7:44
+699:gdr2.tmass_best_neighbour:gaia_astrometric_params:short:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:8:44
+700:gdr2.tmass_neighbourhood:tmass_oid:long:NULL:NULL:External Catalogue source identifier:NULL:NULL:meta.id.cross:false:false:false:1:45
+701:gdr2.tmass_neighbourhood:source_id:long:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:2:45
+702:gdr2.tmass_neighbourhood:original_ext_source_id:char:4000:4000:NULL:NULL:NULL:NULL:false:false:false:3:45
+703:gdr2.tmass_neighbourhood:angular_distance:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:4:45
+704:gdr2.tmass_neighbourhood:score:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:5:45
+705:gdr2.tmass_neighbourhood:gaia_astrometric_params:short:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:6:45
+706:gdr2.tycho2_best_neighbour:tycho2_oid:long:NULL:NULL:External Catalogue source identifier:NULL:NULL:meta.id.cross:false:false:false:1:46
+707:gdr2.tycho2_best_neighbour:number_of_neighbours:int:NULL:NULL:Number of neighbours in Gaia Catalogue:NULL:NULL:meta.number:false:false:false:2:46
+708:gdr2.tycho2_best_neighbour:source_id:long:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:3:46
+709:gdr2.tycho2_best_neighbour:original_ext_source_id:char:4000:4000:NULL:NULL:NULL:NULL:false:false:false:4:46
+710:gdr2.tycho2_best_neighbour:angular_distance:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:5:46
+711:gdr2.tycho2_best_neighbour:gaia_astrometric_params:short:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:6:46
+712:gdr2.tycho2_neighbourhood:tycho2_oid:long:NULL:NULL:External Catalogue source identifier:NULL:NULL:meta.id.cross:false:false:false:1:47
+713:gdr2.tycho2_neighbourhood:source_id:long:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:2:47
+714:gdr2.tycho2_neighbourhood:original_ext_source_id:char:4000:4000:NULL:NULL:NULL:NULL:false:false:false:3:47
+715:gdr2.tycho2_neighbourhood:angular_distance:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:4:47
+716:gdr2.tycho2_neighbourhood:score:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:5:47
+717:gdr2.tycho2_neighbourhood:gaia_astrometric_params:short:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:6:47
+404:gdr2.urat1_best_neighbour:urat1_oid:long:NULL:NULL:External Catalogue source identifier:NULL:NULL:meta.id.cross:false:false:false:1:22
+405:gdr2.urat1_best_neighbour:number_of_neighbours:int:NULL:NULL:Number of neighbours in External Catalogue:NULL:NULL:meta.number:false:false:false:2:22
+406:gdr2.urat1_best_neighbour:number_of_mates:short:NULL:NULL:Number of mates in Gaia Catalogue:NULL:NULL:meta.number:false:false:false:3:22
+407:gdr2.urat1_best_neighbour:best_neighbour_multiplicity:short:NULL:NULL:Number of neighbours with same probability as best neighbour:NULL:NULL:meta.number:false:false:false:4:22
+408:gdr2.urat1_best_neighbour:source_id:long:NULL:NULL:NULL:NULL:NULL:NULL:false:true:false:5:22
+409:gdr2.urat1_best_neighbour:original_ext_source_id:char:4000:4000:NULL:NULL:NULL:NULL:false:false:false:6:22
+410:gdr2.urat1_best_neighbour:angular_distance:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:7:22
+411:gdr2.urat1_best_neighbour:gaia_astrometric_params:short:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:8:22
+482:gdr2.urat1_neighbourhood:urat1_oid:long:NULL:NULL:External Catalogue source identifier:NULL:NULL:meta.id.cross:false:false:false:1:28
+483:gdr2.urat1_neighbourhood:source_id:long:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:2:28
+484:gdr2.urat1_neighbourhood:original_ext_source_id:char:4000:4000:NULL:NULL:NULL:NULL:false:false:false:3:28
+485:gdr2.urat1_neighbourhood:angular_distance:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:4:28
+486:gdr2.urat1_neighbourhood:score:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:5:28
+487:gdr2.urat1_neighbourhood:gaia_astrometric_params:short:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:6:28
+564:gdr2.aux_allwise_agn_gdr2_cross_id:allwise_name:char:4000:4000:Identifier in the ALLWISE AGN catalogue:NULL:NULL:meta.id.cross;meta.main:false:true:false:1:32
+565:gdr2.aux_allwise_agn_gdr2_cross_id:source_id:long:NULL:NULL:Gaia source identifier:NULL:NULL:meta.id.cross:true:true:false:2:32
+645:gdr2.aux_iers_gdr2_cross_id:iers_name:char:4000:4000:IERS name:NULL:NULL:meta.id.cross;meta.main:false:true:false:1:36
+646:gdr2.aux_iers_gdr2_cross_id:source_id:long:NULL:NULL:Gaia source identifier:NULL:NULL:meta.id.cross:true:true:false:2:36
+554:gdr2.aux_sso_orbit_residuals:source_id:long:NULL:NULL:Source identifier:NULL:NULL:meta.id;meta.main:true:true:false:1:31
+555:gdr2.aux_sso_orbit_residuals:transit_id:long:NULL:NULL:Transit Identifier:NULL:NULL:meta.id:false:false:false:2:31
+556:gdr2.aux_sso_orbit_residuals:observation_id:long:NULL:NULL:Observation Identifier:NULL:NULL:meta.id.cross:false:true:false:3:31
+557:gdr2.aux_sso_orbit_residuals:number_mp:long:NULL:NULL:minor planet number attributed by MPC:NULL:NULL:meta.id.cross:false:true:false:4:31
+558:gdr2.aux_sso_orbit_residuals:epoch:double:NULL:NULL:Gaiacentric epoch TCB(Gaia):NULL:Time[Barycentric JD in TCB - 2455197.5 (day)]:time.epoch:false:false:false:5:31
+559:gdr2.aux_sso_orbit_residuals:residual_ra:double:NULL:NULL:post-orbital fit residual in RA*cos(Dec):NULL:Angle[mas]:arith.diff;pos.angDistance:false:false:false:6:31
+560:gdr2.aux_sso_orbit_residuals:residual_dec:double:NULL:NULL:post-orbital fit residual in Dec:NULL:Angle[mas]:arith.diff;pos.angDistance:false:false:false:7:31
+561:gdr2.aux_sso_orbit_residuals:residual_al:double:NULL:NULL:post-orbital fit residual AL:NULL:Angle[mas]:arith.diff;pos.angDistance:false:false:false:8:31
+562:gdr2.aux_sso_orbit_residuals:residual_ac:double:NULL:NULL:post-orbital fit residual AC:NULL:Angle[mas]:arith.diff;pos.angDistance:false:false:false:9:31
+563:gdr2.aux_sso_orbit_residuals:selected:unsignedByte:NULL:NULL:observation not rejected by orbital fit:NULL:NULL:meta.code.status:false:false:false:10:31
+488:gdr2.aux_sso_orbits:solution_id:long:NULL:NULL:Solution Identifier:NULL:NULL:meta.version:true:false:false:1:29
+489:gdr2.aux_sso_orbits:number_mp:long:NULL:NULL:Asteroid MPC number:NULL:NULL:meta.id:false:true:false:2:29
+490:gdr2.aux_sso_orbits:designation:char:4000:4000:MPC name:NULL:NULL:meta.id;meta.main:true:true:false:3:29
+491:gdr2.aux_sso_orbits:mag_h:double:NULL:NULL:absolute magnitude:NULL:Magnitude[mag]:phot.mag:false:false:false:4:29
+492:gdr2.aux_sso_orbits:slope_g:double:NULL:NULL:slope parameter:NULL:NULL:stat.fit.param:false:false:false:5:29
+493:gdr2.aux_sso_orbits:code:int:NULL:NULL:object specific flags:NULL:NULL:meta.code.status:false:false:false:6:29
+494:gdr2.aux_sso_orbits:obs_arc:long:NULL:NULL:arc spanned by the observations:NULL:Time[day]:time.interval:false:false:false:7:29
+495:gdr2.aux_sso_orbits:obs_num:long:NULL:NULL:number of observations used:NULL:NULL:meta.number:false:false:false:8:29
+496:gdr2.aux_sso_orbits:osc_epoch:char:4000:4000:epoch of osculation:NULL:Time[yyyymmdd]:time.epoch:false:false:false:9:29
+497:gdr2.aux_sso_orbits:orb_m:double:NULL:NULL:mean anomaly:NULL:Angle[deg]:src.orbital.meanAnomaly:false:false:false:10:29
+498:gdr2.aux_sso_orbits:omega:double:NULL:NULL:argument of perihelion:NULL:Angle[deg]:src.orbital.periastron:false:false:false:11:29
+499:gdr2.aux_sso_orbits:node_omega:double:NULL:NULL:longitude of ascending node:NULL:Angle[deg]:src.orbital.node:false:false:false:12:29
+500:gdr2.aux_sso_orbits:inclination:double:NULL:NULL:orbit inclination:NULL:Angle[deg]:src.orbital.inclination:false:false:false:13:29
+501:gdr2.aux_sso_orbits:eccentricity:double:NULL:NULL:orbit eccentricity:NULL:NULL:src.orbital.eccentricity:false:false:false:14:29
+502:gdr2.aux_sso_orbits:a:double:NULL:NULL:semimajor axis:NULL:Length & Distance[AU]:src.orbital;phys.size.smajAxis:false:false:false:15:29
+503:gdr2.aux_sso_orbits:orb_date:char:4000:4000:date of orbit computation:NULL:Time[yyyymmdd]:time.processing:false:false:false:16:29
+504:gdr2.aux_sso_orbits:ceu:double:NULL:NULL:current orbit uncertainty:NULL:Angle[arcsec]:src.orbital;stat.error:false:false:false:17:29
+505:gdr2.aux_sso_orbits:ceu_rate:double:NULL:NULL:rate of change of the orbit uncertainty:NULL:Angular Velocity[mas/s]:arith.rate;src.orbital;stat.error:false:false:false:18:29
+506:gdr2.aux_sso_orbits:ceu_epoch:char:4000:4000:date of the CEU:NULL:Time[yyyymmdd]:time:false:false:false:19:29
+54:gdr1.gaia_source:l:double:NULL:NULL:Galactic longitude:NULL:Angle[deg]:pos.galactic.lon:false:true:false:54:1
+1:gdr1.gaia_source:solution_id:long:NULL:NULL:Solution Identifier:NULL:NULL:meta.id;meta.version:true:false:false:1:1
+2:gdr1.gaia_source:source_id:long:NULL:NULL:Unique source identifier:NULL:NULL:meta.id;meta.main:true:true:false:2:1
+3:gdr1.gaia_source:random_index:long:NULL:NULL:Random index used to select subsets:NULL:NULL:meta.code:false:true:false:3:1
+4:gdr1.gaia_source:ref_epoch:double:NULL:NULL:Reference epoch:NULL:Time[Julian Years]:meta.ref;time.epoch:true:false:false:4:1
+5:gdr1.gaia_source:ra:double:NULL:NULL:Right ascension:NULL:Angle[deg]:pos.eq.ra;meta.main:true:true:false:5:1
+6:gdr1.gaia_source:ra_error:double:NULL:NULL:Standard error of right ascension:NULL:Angle[mas]:stat.error;pos.eq.ra:true:false:false:6:1
+7:gdr1.gaia_source:dec:double:NULL:NULL:Declination:NULL:Angle[deg]:pos.eq.dec;meta.main:true:false:false:7:1
+8:gdr1.gaia_source:dec_error:double:NULL:NULL:Standard error of declination:NULL:Angle[mas]:stat.error;pos.eq.dec:true:false:false:8:1
+9:gdr1.gaia_source:parallax:double:NULL:NULL:Parallax:NULL:Angle[mas]:pos.parallax:true:true:false:9:1
+10:gdr1.gaia_source:parallax_error:double:NULL:NULL:Standard error of parallax:NULL:Angle[mas]:stat.error;pos.parallax:true:true:false:10:1
+11:gdr1.gaia_source:pmra:double:NULL:NULL:Proper motion in right ascension direction:NULL:Angular Velocity[mas/year]:pos.pm;pos.eq.ra:false:true:false:11:1
+12:gdr1.gaia_source:pmra_error:double:NULL:NULL:Standard error of proper motion in right ascension direction:NULL:Angular Velocity[mas/year]:stat.error;pos.pm;pos.eq.ra:false:false:false:12:1
+13:gdr1.gaia_source:pmdec:double:NULL:NULL:Proper motion in declination direction:NULL:Angular Velocity[mas/year]:pos.pm;pos.eq.dec:false:true:false:13:1
+14:gdr1.gaia_source:pmdec_error:double:NULL:NULL:Standard error of proper motion in declination direction:NULL:Angular Velocity[mas/year]:stat.error;pos.pm;pos.eq.dec:false:false:false:14:1
+15:gdr1.gaia_source:ra_dec_corr:float:NULL:NULL:Correlation between right ascension and declination:NULL:NULL:stat.correlation:false:false:false:15:1
+16:gdr1.gaia_source:ra_parallax_corr:float:NULL:NULL:Correlation between right ascension and parallax:NULL:float:-1:false:false:false:16:1
+17:gdr1.gaia_source:ra_pmra_corr:float:NULL:NULL:Correlation between right ascension and proper motion in right ascension:NULL:NULL:stat.correlation:false:false:false:17:1
+18:gdr1.gaia_source:ra_pmdec_corr:float:NULL:NULL:Correlation between right ascension and proper motion in declination:NULL:NULL:stat.correlation:false:false:false:18:1
+19:gdr1.gaia_source:dec_parallax_corr:float:NULL:NULL:Correlation between declination and parallax:NULL:NULL:stat.correlation:false:false:false:19:1
+20:gdr1.gaia_source:dec_pmra_corr:float:NULL:NULL:Correlation between declination and proper motion in right ascension:NULL:NULL:stat.correlation:false:false:false:20:1
+21:gdr1.gaia_source:dec_pmdec_corr:float:NULL:NULL:Correlation between declination and proper motion in declination:NULL:NULL:stat.correlation:false:false:false:21:1
+22:gdr1.gaia_source:parallax_pmra_corr:float:NULL:NULL:Correlation between parallax and proper motion in right ascension:NULL:NULL:stat.correlation:false:false:false:22:1
+23:gdr1.gaia_source:parallax_pmdec_corr:float:NULL:NULL:Correlation between parallax and proper motion in declination:NULL:NULL:stat.correlation:false:false:false:23:1
+24:gdr1.gaia_source:pmra_pmdec_corr:float:NULL:NULL:Correlation between proper motion in right ascension and proper motion in declination:NULL:NULL:stat.correlation:false:false:false:24:1
+25:gdr1.gaia_source:astrometric_n_obs_al:int:NULL:NULL:Total number of observations AL:NULL:NULL:meta.number:false:false:false:25:1
+26:gdr1.gaia_source:astrometric_n_obs_ac:int:NULL:NULL:Total number of observations AC:NULL:NULL:meta.number:false:false:false:26:1
+27:gdr1.gaia_source:astrometric_n_good_obs_al:int:NULL:NULL:Number of good observations AL:NULL:NULL:meta.number:false:false:false:27:1
+28:gdr1.gaia_source:astrometric_n_good_obs_ac:int:NULL:NULL:Number of good observations AC:NULL:NULL:meta.number:false:false:false:28:1
+29:gdr1.gaia_source:astrometric_n_bad_obs_ac:int:NULL:NULL:Number of bad observations AC:NULL:NULL:meta.number:false:false:false:29:1
+30:gdr1.gaia_source:astrometric_n_bad_obs_al:int:NULL:NULL:Number of bad observations AL:NULL:NULL:meta.number:false:false:false:30:1
+31:gdr1.gaia_source:astrometric_delta_q:float:NULL:NULL:Hipparcos/Gaia data discrepancy (Hipparcos subset of TGAS only):NULL:NULL:stat.value:false:false:false:31:1
+32:gdr1.gaia_source:astrometric_excess_noise:double:NULL:NULL:Excess noise of the source:NULL:Angle[mas]:stat.value:false:false:false:32:1
+33:gdr1.gaia_source:astrometric_excess_noise_sig:double:NULL:NULL:Significance of excess noise:NULL:NULL:stat.value:false:false:false:33:1
+34:gdr1.gaia_source:astrometric_primary_flag:unsignedByte:NULL:NULL:Primary or seconday:NULL:NULL:meta.code:false:false:false:34:1
+35:gdr1.gaia_source:astrometric_relegation_factor:float:NULL:NULL:Relegation factor:NULL:NULL:arith.factor:false:false:false:35:1
+36:gdr1.gaia_source:astrometric_weight_al:float:NULL:NULL:Mean astrometric weight of the source:NULL:Angle[mas^-2]:stat.weight;stat.mean:false:false:false:36:1
+37:gdr1.gaia_source:astrometric_weight_ac:float:NULL:NULL:Mean astrometric weight of the source:NULL:Angle[mas^-2]:stat.weight;stat.mean:false:false:false:37:1
+38:gdr1.gaia_source:astrometric_priors_used:int:NULL:NULL:Type of prior used in the astrometric solution:NULL:NULL:NULL:false:false:false:38:1
+39:gdr1.gaia_source:matched_observations:short:NULL:NULL:Amount of observations matched to this source:NULL:NULL:meta.number:false:false:false:39:1
+40:gdr1.gaia_source:duplicated_source:unsignedByte:NULL:NULL:Source with duplicate sources:NULL:NULL:NULL:false:false:false:40:1
+41:gdr1.gaia_source:scan_direction_strength_k1:float:NULL:NULL:Degree of concentration of scan directions across the source:NULL:NULL:NULL:false:false:false:41:1
+42:gdr1.gaia_source:scan_direction_strength_k2:float:NULL:NULL:Degree of concentration of scan directions across the source:NULL:NULL:NULL:false:false:false:42:1
+43:gdr1.gaia_source:scan_direction_strength_k3:float:NULL:NULL:Degree of concentration of scan directions across the source:NULL:NULL:NULL:false:false:false:43:1
+44:gdr1.gaia_source:scan_direction_strength_k4:float:NULL:NULL:Degree of concentration of scan directions across the source:NULL:NULL:NULL:false:false:false:44:1
+45:gdr1.gaia_source:scan_direction_mean_k1:float:NULL:NULL:Mean position angle of scan directions across the source:NULL:Angle[deg]:NULL:false:false:false:45:1
+46:gdr1.gaia_source:scan_direction_mean_k2:float:NULL:NULL:Mean position angle of scan directions across the source:NULL:Angle[deg]:NULL:false:false:false:46:1
+47:gdr1.gaia_source:scan_direction_mean_k3:float:NULL:NULL:Mean position angle of scan directions across the source:NULL:Angle[deg]:NULL:false:false:false:47:1
+48:gdr1.gaia_source:scan_direction_mean_k4:float:NULL:NULL:Mean position angle of scan directions across the source:NULL:Angle[deg]:NULL:false:false:false:48:1
+49:gdr1.gaia_source:phot_g_n_obs:int:NULL:NULL:Number of observations contributing to G photometry:NULL:NULL:meta.number:false:false:false:49:1
+50:gdr1.gaia_source:phot_g_mean_flux:double:NULL:NULL:G-band mean flux:NULL:Flux[e-/s]:phot.flux;stat.mean;em.opt:false:false:false:50:1
+51:gdr1.gaia_source:phot_g_mean_flux_error:double:NULL:NULL:Error on G-band mean flux:NULL:Flux[e-/s]:stat.error;phot.flux;stat.mean;em.opt:false:false:false:51:1
+52:gdr1.gaia_source:phot_g_mean_mag:double:NULL:NULL:G-band mean magnitude:NULL:Magnitude[mag]:phot.mag;stat.mean;em.opt:false:true:false:52:1
+53:gdr1.gaia_source:phot_variable_flag:char:4000:4000:Photometric variability flag:NULL:NULL:meta.code;src.var:false:false:false:53:1
+55:gdr1.gaia_source:b:double:NULL:NULL:Galactic latitude:NULL:Angle[deg]:pos.galactic.lat:false:true:false:55:1
+56:gdr1.gaia_source:ecl_lon:double:NULL:NULL:Ecliptic longitude:NULL:Angle[deg]:pos.ecliptic.lon:false:true:false:56:1
+57:gdr1.gaia_source:ecl_lat:double:NULL:NULL:Ecliptic latitude:NULL:Angle[deg]:pos.ecliptic.lat:false:true:false:57:1
+58:gdr1.gaia_source:pos:spoint:NULL:NULL:Spherical point computed from right ascension and declination:NULL:NULL:NULL:false:true:false:58:1
+94:gdr1.tgas_source:hip:int:NULL:NULL:Hipparcos identifier:NULL:NULL:meta.id.cross:false:false:false:1:7
+95:gdr1.tgas_source:tycho2_id:char:4000:4000:Tycho 2 identifier:NULL:NULL:meta.id.cross:false:false:false:2:7
+96:gdr1.tgas_source:solution_id:long:NULL:NULL:Solution Identifier:NULL:NULL:meta.id;meta.version:true:false:false:3:7
+97:gdr1.tgas_source:source_id:long:NULL:NULL:Unique source identifier:NULL:NULL:meta.id;meta.main:true:true:false:4:7
+98:gdr1.tgas_source:random_index:long:NULL:NULL:Random index used to select subsets:NULL:NULL:meta.code:false:false:false:5:7
+99:gdr1.tgas_source:ref_epoch:double:NULL:NULL:Reference epoch:NULL:Time[Julian Years]:meta.ref;time.epoch:true:false:false:6:7
+100:gdr1.tgas_source:ra:double:NULL:NULL:Right ascension:NULL:Angle[deg]:pos.eq.ra;meta.main:true:true:false:7:7
+101:gdr1.tgas_source:ra_error:double:NULL:NULL:Standard error of right ascension:NULL:Angle[mas]:stat.error;pos.eq.ra:true:false:false:8:7
+102:gdr1.tgas_source:dec:double:NULL:NULL:Declination:NULL:Angle[deg]:pos.eq.dec;meta.main:true:false:false:9:7
+103:gdr1.tgas_source:dec_error:double:NULL:NULL:Standard error of declination:NULL:Angle[mas]:stat.error;pos.eq.dec:true:false:false:10:7
+104:gdr1.tgas_source:parallax:double:NULL:NULL:Parallax:NULL:Angle[mas]:pos.parallax:true:true:false:11:7
+105:gdr1.tgas_source:parallax_error:double:NULL:NULL:Standard error of parallax:NULL:Angle[mas]:stat.error;pos.parallax:true:true:false:12:7
+106:gdr1.tgas_source:pmra:double:NULL:NULL:Proper motion in right ascension direction:NULL:Angular Velocity[mas/year]:pos.pm;pos.eq.ra:false:true:false:13:7
+107:gdr1.tgas_source:pmra_error:double:NULL:NULL:Standard error of proper motion in right ascension direction:NULL:Angular Velocity[mas/year]:stat.error;pos.pm;pos.eq.ra:false:false:false:14:7
+108:gdr1.tgas_source:pmdec:double:NULL:NULL:Proper motion in declination direction:NULL:Angular Velocity[mas/year]:pos.pm;pos.eq.dec:false:true:false:15:7
+109:gdr1.tgas_source:pmdec_error:double:NULL:NULL:Standard error of proper motion in declination direction:NULL:Angular Velocity[mas/year]:stat.error;pos.pm;pos.eq.dec:false:false:false:16:7
+110:gdr1.tgas_source:ra_dec_corr:float:NULL:NULL:Correlation between right ascension and declination:NULL:NULL:stat.correlation:false:false:false:17:7
+111:gdr1.tgas_source:ra_parallax_corr:float:NULL:NULL:Correlation between right ascension and parallax:NULL:float:-1:false:false:false:18:7
+112:gdr1.tgas_source:ra_pmra_corr:float:NULL:NULL:Correlation between right ascension and proper motion in right ascension:NULL:NULL:stat.correlation:false:false:false:19:7
+113:gdr1.tgas_source:ra_pmdec_corr:float:NULL:NULL:Correlation between right ascension and proper motion in declination:NULL:NULL:stat.correlation:false:false:false:20:7
+114:gdr1.tgas_source:dec_parallax_corr:float:NULL:NULL:Correlation between declination and parallax:NULL:NULL:stat.correlation:false:false:false:21:7
+115:gdr1.tgas_source:dec_pmra_corr:float:NULL:NULL:Correlation between declination and proper motion in right ascension:NULL:NULL:stat.correlation:false:false:false:22:7
+116:gdr1.tgas_source:dec_pmdec_corr:float:NULL:NULL:Correlation between declination and proper motion in declination:NULL:NULL:stat.correlation:false:false:false:23:7
+117:gdr1.tgas_source:parallax_pmra_corr:float:NULL:NULL:Correlation between parallax and proper motion in right ascension:NULL:NULL:stat.correlation:false:false:false:24:7
+118:gdr1.tgas_source:parallax_pmdec_corr:float:NULL:NULL:Correlation between parallax and proper motion in declination:NULL:NULL:stat.correlation:false:false:false:25:7
+119:gdr1.tgas_source:pmra_pmdec_corr:float:NULL:NULL:Correlation between proper motion in right ascension and proper motion in declination:NULL:NULL:stat.correlation:false:false:false:26:7
+120:gdr1.tgas_source:astrometric_n_obs_al:int:NULL:NULL:Total number of observations AL:NULL:NULL:meta.number:false:false:false:27:7
+121:gdr1.tgas_source:astrometric_n_obs_ac:int:NULL:NULL:Total number of observations AC:NULL:NULL:meta.number:false:false:false:28:7
+122:gdr1.tgas_source:astrometric_n_good_obs_al:int:NULL:NULL:Number of good observations AL:NULL:NULL:meta.number:false:false:false:29:7
+123:gdr1.tgas_source:astrometric_n_good_obs_ac:int:NULL:NULL:Number of good observations AC:NULL:NULL:meta.number:false:false:false:30:7
+124:gdr1.tgas_source:astrometric_n_bad_obs_ac:int:NULL:NULL:Number of bad observations AC:NULL:NULL:meta.number:false:false:false:31:7
+125:gdr1.tgas_source:astrometric_n_bad_obs_al:int:NULL:NULL:Number of bad observations AL:NULL:NULL:meta.number:false:false:false:32:7
+126:gdr1.tgas_source:astrometric_delta_q:float:NULL:NULL:Hipparcos/Gaia data discrepancy (Hipparcos subset of TGAS only):NULL:NULL:stat.value:false:false:false:33:7
+127:gdr1.tgas_source:astrometric_excess_noise:double:NULL:NULL:Excess noise of the source:NULL:Angle[mas]:stat.value:false:false:false:34:7
+128:gdr1.tgas_source:astrometric_excess_noise_sig:double:NULL:NULL:Significance of excess noise:NULL:NULL:stat.value:false:false:false:35:7
+129:gdr1.tgas_source:astrometric_primary_flag:unsignedByte:NULL:NULL:Primary or seconday:NULL:NULL:meta.code:false:false:false:36:7
+130:gdr1.tgas_source:astrometric_relegation_factor:float:NULL:NULL:Relegation factor:NULL:NULL:arith.factor:false:false:false:37:7
+131:gdr1.tgas_source:astrometric_weight_al:float:NULL:NULL:Mean astrometric weight of the source:NULL:Angle[mas^-2]:stat.weight;stat.mean:false:false:false:38:7
+132:gdr1.tgas_source:astrometric_weight_ac:float:NULL:NULL:Mean astrometric weight of the source:NULL:Angle[mas^-2]:stat.weight;stat.mean:false:false:false:39:7
+133:gdr1.tgas_source:astrometric_priors_used:int:NULL:NULL:Type of prior used in the astrometric solution:NULL:NULL:NULL:false:false:false:40:7
+134:gdr1.tgas_source:matched_observations:short:NULL:NULL:Amount of observations matched to this source:NULL:NULL:meta.number:false:false:false:41:7
+135:gdr1.tgas_source:duplicated_source:unsignedByte:NULL:NULL:Source with duplicate sources:NULL:NULL:NULL:false:false:false:42:7
+136:gdr1.tgas_source:scan_direction_strength_k1:float:NULL:NULL:Degree of concentration of scan directions across the source:NULL:NULL:NULL:false:false:false:43:7
+137:gdr1.tgas_source:scan_direction_strength_k2:float:NULL:NULL:Degree of concentration of scan directions across the source:NULL:NULL:NULL:false:false:false:44:7
+138:gdr1.tgas_source:scan_direction_strength_k3:float:NULL:NULL:Degree of concentration of scan directions across the source:NULL:NULL:NULL:false:false:false:45:7
+139:gdr1.tgas_source:scan_direction_strength_k4:float:NULL:NULL:Degree of concentration of scan directions across the source:NULL:NULL:NULL:false:false:false:46:7
+140:gdr1.tgas_source:scan_direction_mean_k1:float:NULL:NULL:Mean position angle of scan directions across the source:NULL:Angle[deg]:NULL:false:false:false:47:7
+141:gdr1.tgas_source:scan_direction_mean_k2:float:NULL:NULL:Mean position angle of scan directions across the source:NULL:Angle[deg]:NULL:false:false:false:48:7
+142:gdr1.tgas_source:scan_direction_mean_k3:float:NULL:NULL:Mean position angle of scan directions across the source:NULL:Angle[deg]:NULL:false:false:false:49:7
+143:gdr1.tgas_source:scan_direction_mean_k4:float:NULL:NULL:Mean position angle of scan directions across the source:NULL:Angle[deg]:NULL:false:false:false:50:7
+144:gdr1.tgas_source:phot_g_n_obs:int:NULL:NULL:Number of observations contributing to G photometry:NULL:NULL:meta.number:false:false:false:51:7
+145:gdr1.tgas_source:phot_g_mean_flux:double:NULL:NULL:G-band mean flux:NULL:Flux[e-/s]:phot.flux;stat.mean;em.opt:false:false:false:52:7
+146:gdr1.tgas_source:phot_g_mean_flux_error:double:NULL:NULL:Error on G-band mean flux:NULL:Flux[e-/s]:stat.error;phot.flux;stat.mean;em.opt:false:false:false:53:7
+147:gdr1.tgas_source:phot_g_mean_mag:double:NULL:NULL:G-band mean magnitude:NULL:Magnitude[mag]:phot.mag;stat.mean;em.opt:false:true:false:54:7
+148:gdr1.tgas_source:phot_variable_flag:char:4000:4000:Photometric variability flag:NULL:NULL:meta.code;src.var:false:false:false:55:7
+149:gdr1.tgas_source:l:double:NULL:NULL:Galactic longitude:NULL:Angle[deg]:pos.galactic.lon:false:false:false:56:7
+150:gdr1.tgas_source:b:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:57:7
+151:gdr1.tgas_source:ecl_lon:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:58:7
+152:gdr1.tgas_source:ecl_lat:double:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:59:7
+153:gdr1.tgas_source:pos:spoint:NULL:NULL:Spherical point computed from right ascension and declination:NULL:NULL:NULL:false:true:false:60:7
+82:gdr1.cepheid:type_best_classification:char:4000:4000:"Best type classification estimate out of, {""DCEP"", ""T2CEP"", ""ACEP""}":NULL:NULL:meta.code.class;src.class:false:false:false:1:5
+83:gdr1.cepheid:type2_best_sub_classification:char:4000:4000:"Best subclassification estimate for typeBestClassification=""T2CEP"" out of, {""BL_HER"", ""W_VIR"", ""RV_TAU""}":NULL:NULL:meta.code.class;src.class:false:false:false:2:5
+84:gdr1.cepheid:mode_best_classification:char:4000:4000:"Best mode classification estimate out of, {""FUNDAMENTAL"", ""FIRST_OVERTONE"", ""SECOND_OVERTONE"", ""UNDEFINED"", ""NOT_APPLICABLE""}":NULL:NULL:meta.code.class;src.class:false:false:false:3:5
+85:gdr1.cepheid:solution_id:long:NULL:NULL:Solution Identifier:NULL:NULL:meta.id;meta.version:false:false:false:4:5
+86:gdr1.cepheid:source_id:long:NULL:NULL:Unique source identifier:NULL:NULL:meta.id;meta.main:false:false:false:5:5
+59:gdr1.rrlyrae:best_classification:char:4000:4000:"Best RR Lyrae classification estimate out of, {""RRC"", ""RRAB""}":NULL:NULL:meta.code.class;src.class:false:false:false:1:2
+60:gdr1.rrlyrae:solution_id:long:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:2:2
+61:gdr1.rrlyrae:source_id:long:NULL:NULL:NULL:NULL:NULL:NULL:false:false:false:3:2
+87:gdr1.phot_variable_time_series_gfov:solution_id:long:NULL:NULL:Solution Identifier:NULL:NULL:meta.id;meta.version:false:false:false:1:6
+88:gdr1.phot_variable_time_series_gfov:source_id:long:NULL:NULL:Unique source identifier:NULL:NULL:meta.id;meta.main:false:false:false:2:6
+89:gdr1.phot_variable_time_series_gfov:observation_time:double:NULL:NULL:Barycentric light-travel time corrected timestamp for each FOV observation:NULL:Time[Barycentric JD in TCB - 2455197.5 (day)]:time.epoch:false:false:false:3:6
+90:gdr1.phot_variable_time_series_gfov:g_flux:double:NULL:NULL:G-band flux for each FOV observation:NULL:Flux[e-/s]:phot.flux;em.opt:false:false:false:4:6
+91:gdr1.phot_variable_time_series_gfov:g_flux_error:double:NULL:NULL:Estimated G-band flux uncertainty for each FOV observation:NULL:Flux[e-/s]:stat.error;phot.flux;em.opt:false:false:false:5:6
+92:gdr1.phot_variable_time_series_gfov:g_magnitude:double:NULL:NULL:G-band magnitude for each FOV observation:NULL:Magnitude[mag]:phot.mag;em.opt:false:false:false:6:6
+93:gdr1.phot_variable_time_series_gfov:rejected_by_variability_processing:unsignedByte:NULL:NULL:True when this FOV observation was excluded from variability analyses:NULL:NULL:meta.code:false:false:false:7:6
+62:gdr1.phot_variable_time_series_gfov_statistical_parameters:solution_id:long:NULL:NULL:Solution Identifier:NULL:NULL:meta.id;meta.version:false:false:false:1:3
+63:gdr1.phot_variable_time_series_gfov_statistical_parameters:source_id:long:NULL:NULL:Unique source identifier:NULL:NULL:meta.id;meta.main:false:false:false:2:3
+64:gdr1.phot_variable_time_series_gfov_statistical_parameters:num_observations_processed:int:NULL:NULL:Number of processed G-band observations for variability analyses:NULL:NULL:meta.number:false:false:false:3:3
+65:gdr1.phot_variable_time_series_gfov_statistical_parameters:mean_obs_time:double:NULL:NULL:Mean observation time (with respect to T0) of G-band time series:NULL:Time[day]:time.epoch;stat.mean:false:false:false:4:3
+66:gdr1.phot_variable_time_series_gfov_statistical_parameters:minimum:double:NULL:NULL:Minimum magnitude of the G-band time series:NULL:Magnitude[mag]:phot.mag;stat.min:false:false:false:5:3
+67:gdr1.phot_variable_time_series_gfov_statistical_parameters:maximum:double:NULL:NULL:Maximum magnitude of the G-band time series:NULL:Magnitude[mag]:phot.mag;stat.max:false:false:false:6:3
+68:gdr1.phot_variable_time_series_gfov_statistical_parameters:mean:double:NULL:NULL:Mean magnitude of the G-band time series:NULL:Magnitude[mag]:phot.mag;stat.mean:false:false:false:7:3
+69:gdr1.phot_variable_time_series_gfov_statistical_parameters:median:double:NULL:NULL:Median magnitude of the G-band time series:NULL:Magnitude[mag]:phot.mag;stat.median:false:false:false:8:3
+70:gdr1.phot_variable_time_series_gfov_statistical_parameters:range:double:NULL:NULL:Difference between the highest and lowest magnitude of the G-band time series:NULL:Magnitude[mag]:phot.mag;arith.diff:false:false:false:9:3
+71:gdr1.phot_variable_time_series_gfov_statistical_parameters:std_dev:double:NULL:NULL:Square root of the unweighted variance of the G-band time series values:NULL:Magnitude[mag]:phot.mag;stat.stdev:false:false:false:10:3
+72:gdr1.phot_variable_time_series_gfov_statistical_parameters:skewness:double:NULL:NULL:Standardized unweighted skewness of the G-band time series values:NULL:NULL:stat.value:false:false:false:11:3
+73:gdr1.phot_variable_time_series_gfov_statistical_parameters:kurtosis:double:NULL:NULL:Standardized unweighted kurtosis of the G-band time series values:NULL:NULL:stat.value:false:false:false:12:3
+74:gdr1.phot_variable_time_series_gfov_statistical_parameters:time_duration:double:NULL:NULL:Time duration of the G-band time series:NULL:Time[day]:time.duration:false:false:false:13:3
+75:gdr1.phot_variable_time_series_gfov_statistical_parameters:median_absolute_deviation:double:NULL:NULL:Median Absolute Deviation (MAD) of the G-band time series values:NULL:Magnitude[mag]:phot.mag;stat.value:false:false:false:14:3
+76:gdr1.phot_variable_time_series_gfov_statistical_parameters:abbe:double:NULL:NULL:Abbe value of the G-band time series values:NULL:NULL:stat.value:false:false:false:15:3
+77:gdr1.phot_variable_time_series_gfov_statistical_parameters:iqr:double:NULL:NULL:Interquartile range of the time series values:NULL:Magnitude[mag]:phot.mag;stat.value:false:false:false:16:3
+78:gdr1.variable_summary:solution_id:long:NULL:NULL:Solution Identifier:NULL:NULL:meta.id;meta.version:false:false:false:1:4
+79:gdr1.variable_summary:source_id:long:NULL:NULL:Unique source identifier:NULL:NULL:meta.id;meta.main:false:false:false:2:4
+80:gdr1.variable_summary:phot_variable_fundam_freq1:double:NULL:NULL:Fundamental frequency 1:NULL:Frequency[day^-1]:src.var.pulse:false:false:false:3:4
+81:gdr1.variable_summary:classification:char:4000:4000:"Photometric variability classification ""RRLYR"" (RR Lyrae) or ""CEP"" (Cepheid)":NULL:NULL:meta.code.class;src.var:false:false:false:4:4
+1453:gdr2_contrib.geometric_distance:source_id:long:NULL:NULL:"Source identifier, identical to the Gaia-DR2 source_id":NULL:NULL:meta.id:false:true:false:1:77
+1454:gdr2_contrib.geometric_distance:r_est:double:NULL:NULL:Estimated distance:NULL:pc:pos.distance:false:true:false:2:77
+1455:gdr2_contrib.geometric_distance:r_lo:double:NULL:NULL:Lower bound on the confidence interval of the estimated distance:NULL:pc:stat.error;pos.distance:false:false:false:3:77
+1456:gdr2_contrib.geometric_distance:r_hi:double:NULL:NULL:Upper bound on the confidence interval of the estimated distance:NULL:pc:stat.error;pos.distance:false:false:false:4:77
+1457:gdr2_contrib.geometric_distance:r_len:double:NULL:NULL:Length scale used in the prior for the distance estimation:NULL:pc:pos.distance:false:false:false:5:77
+1459:gdr2_contrib.geometric_distance:modality_flag:short:NULL:NULL:no. of modes in the posterior (1 or 2):NULL:NULL:NULL:false:false:false:7:77
+2685:gdr2_contrib.starhorse:source_id:long:NULL:NULL:Unique source identifier (unique within a particular Data Release):::meta.id:true:true:false:0:118
+2686:gdr2_contrib.starhorse:sh_photoflag:char:50:50:StarHorse photometry input flag::::false:false:false:1:118
+2687:gdr2_contrib.starhorse:sh_parallaxflag:char:50:50:StarHorse parallax input flag::::false:true:false:2:118
+2688:gdr2_contrib.starhorse:sh_gaiaflag:char:50:50:StarHorse GDR2 quality flag::::false:true:false:3:118
+2689:gdr2_contrib.starhorse:sh_outflag:char:50:50:StarHorse output quality flag::::false:true:false:4:118
+2690:gdr2_contrib.starhorse:dist05:double:NULL:NULL:"StarHorse distance, 5th percentile":::pos.distance:false:false:false:5:118
+2691:gdr2_contrib.starhorse:dist16:double:NULL:NULL:"StarHorse distance, 16th percentile"::kpc:pos.distance:false:false:false:6:118
+2692:gdr2_contrib.starhorse:dist50:double:NULL:NULL:"StarHorse distance, 50th percentile":::pos.distance:false:true:false:7:118
+2693:gdr2_contrib.starhorse:dist84:double:NULL:NULL:"StarHorse distance, 84th percentile":::pos.distance:false:false:false:8:118
+2694:gdr2_contrib.starhorse:dist95:double:NULL:NULL:"StarHorse distance, 95th percentile":::pos.distance:false:false:false:9:118
+2695:gdr2_contrib.starhorse:av05:double:NULL:NULL:"StarHorse line-of-sight extinction at 5420 nm, A_V, 5th percentile"::Magnitude[mag]:phys.absorption.gal:false:false:false:10:118
+2696:gdr2_contrib.starhorse:av16:double:NULL:NULL:"StarHorse line-of-sight extinction at 5420 nm, A_V, 16th percentile"::Magnitude[mag]:phys.absorption.gal:false:false:false:11:118
+2697:gdr2_contrib.starhorse:av50:double:NULL:NULL:"StarHorse line-of-sight extinction at 5420 nm, A_V, 50th percentile"::Magnitude[mag]:phys.absorption.gal:false:true:false:12:118
+2698:gdr2_contrib.starhorse:av84:double:NULL:NULL:"StarHorse line-of-sight extinction at 5420 nm, A_V, 84th percentile"::Magnitude[mag]:phys.absorption.gal:false:false:false:13:118
+2699:gdr2_contrib.starhorse:av95:double:NULL:NULL:"StarHorse line-of-sight extinction at 5420 nm, A_V, 95th percentile"::Magnitude[mag]:phys.absorption.gal:false:false:false:14:118
+2712:gdr2_contrib.starhorse:ag50:double:NULL:NULL:"StarHorse line-of-sight extinction in the Gaia DR2 G band (Maiz-Apellaniz & Weiler 2018), A_G, 50th percentile"::Magnitude[mag]:phys.absorption.gal:false:false:false:15:118
+2700:gdr2_contrib.starhorse:teff16:double:NULL:NULL:"StarHorse effective temperature, 16th percentile"::Temperature[K]:phys.temperature.effective:false:false:false:16:118
+2701:gdr2_contrib.starhorse:teff50:double:NULL:NULL:"StarHorse effective temperature, 50th percentile"::Temperature[K]:phys.temperature.effective:false:false:false:17:118
+2702:gdr2_contrib.starhorse:teff84:double:NULL:NULL:"StarHorse effective temperature, 84th percentile"::Temperature[K]:phys.temperature.effective:false:false:false:18:118
+2703:gdr2_contrib.starhorse:logg16:double:NULL:NULL:"StarHorse surface gravity, 16th percentile"::cgs[dex]:phys.gravity:false:false:false:19:118
+2704:gdr2_contrib.starhorse:logg50:double:NULL:NULL:"StarHorse surface gravity, 50th percentile"::cgs[dex]:phys.gravity:false:false:false:20:118
+2705:gdr2_contrib.starhorse:logg84:double:NULL:NULL:"StarHorse surface gravity, 84th percentile"::cgs[dex]:phys.gravity:false:false:false:21:118
+2706:gdr2_contrib.starhorse:met16:double:NULL:NULL:"StarHorse metallicity, 16th percentile":::phys.abund.Z:false:false:false:22:118
+2707:gdr2_contrib.starhorse:met50:double:NULL:NULL:"StarHorse metallicity, 50th percentile":::phys.abund.Z:false:false:false:23:118
+2708:gdr2_contrib.starhorse:met84:double:NULL:NULL:"StarHorse metallicity, 84th percentile":::phys.abund.Z:false:false:false:24:118
+2709:gdr2_contrib.starhorse:mass16:double:NULL:NULL:"StarHorse stellar mass, 16th percentile"::Mass[solar]:phys.mass:false:false:false:25:118
+2710:gdr2_contrib.starhorse:mass50:double:NULL:NULL:"StarHorse stellar mass, 50th percentile"::Mass[solar]:phys.mass:false:false:false:26:118
+2711:gdr2_contrib.starhorse:mass84:double:NULL:NULL:"StarHorse stellar mass, 84th percentile"::Mass[solar]:phys.mass:false:false:false:27:118
+2713:gdr2_contrib.starhorse:abp50:double:NULL:NULL:"StarHorse line-of-sight extinction in the G_BP band (Maiz-Apellaniz & Weiler 2018), A_BP, 50th percentile"::Magnitude[mag]:phys.absorption.gal:false:false:false:28:118
+2714:gdr2_contrib.starhorse:arp50:double:NULL:NULL:"StarHorse line-of-sight extinction in the G_RP band (Maiz-Apellaniz & Weiler 2018), A_RP, 50th percentile"::Magnitude[mag]:phys.absorption.gal:false:false:false:29:118
+2716:gdr2_contrib.starhorse:bprp0:double:NULL:NULL:"StarHorse dereddened G_BP - G_RP colour, derived from phot_bp_mean_mag, phot_rp_mean_mag, Teff50 and AV50"::Magnitude[mag]:phot.mag;stat.mean:false:false:false:30:118
+2715:gdr2_contrib.starhorse:mg0:double:NULL:NULL:"StarHorse absolute magnitude, derived from phot_g_mean_mag_oct2018, dist50, and AG50"::Magnitude[mag]:phot.mag;stat.mean:false:false:false:31:118
+2717:gdr2_contrib.starhorse:xgal:double:NULL:NULL:"StarHorse Galactocentric Cartesian X coordinate, derived from dist50"::kpc:pos.distance:false:true:false:32:118
+2718:gdr2_contrib.starhorse:ygal:double:NULL:NULL:"StarHorse Galactocentric Cartesian Y coordinate, derived from dist50"::kpc:pos.distance:false:true:false:33:118
+2719:gdr2_contrib.starhorse:zgal:double:NULL:NULL:"StarHorse Galactocentric Cartesian Z coordinate, derived from dist50"::kpc:pos.distance:false:true:false:34:118
+2720:gdr2_contrib.starhorse:rgal:double:NULL:NULL:"StarHorse Galactocentric distance, derived from dist50 and assuming  R_0 = 8.2 kpc"::kpc:pos.distance:false:false:false:35:118
+2721:gdr2_contrib.starhorse:ruwe:double:NULL:NULL:Gaia DR2 renormalised unit weight error (RUWE; Lindegren 2018)::::false:false:false:36:118
+2683:gdr2_contrib.ruwe:source_id:long:NULL:NULL:Unique source identifier:NULL:NULL:meta.id:false:true:false:1:117
+2684:gdr2_contrib.ruwe:ruwe:double:NULL:NULL:Re-normalised unit weight error:NULL:NULL:stat.error:false:true:false:2:117

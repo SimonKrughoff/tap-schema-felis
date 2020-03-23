@@ -1,0 +1,6 @@
+id:schema_name:utype:description
+7:catalogs:NULL:NULL
+2:gdr2:NULL:Gaia second data release.
+1:gdr1:NULL:Gaia first data release.
+9:gdr2_contrib:NULL:Tables derived from GDR2 data.
+13:gaia_tap_schema:NULL:TAP SCHEMA for GAIA@AIP

@@ -1,0 +1,52 @@
+id:schema_name:table_name:table_type:utype:description:table_index:schema_id
+102:gaia_tap_schema:columns:table:NULL:NULL:NULL:13
+104:gaia_tap_schema:schemas:table:NULL:NULL:NULL:13
+105:gaia_tap_schema:tables:table:NULL:NULL:NULL:13
+10:gdr2:gaia_source:table:NULL:Main catalogue:1:2
+34:gdr2:sso_observation:table:NULL:Solar System object observations:2:2
+35:gdr2:sso_source:table:NULL:Solar System objects related data:3:2
+30:gdr2:vari_cepheid:table:NULL:Cepheid stars:4:2
+8:gdr2:vari_classifier_class_definition:table:NULL:Detailed description of variable classes:5:2
+9:gdr2:vari_classifier_definition:table:NULL:Description of all classifiers:6:2
+12:gdr2:vari_classifier_result:table:NULL:Variability classification results:7:2
+13:gdr2:vari_long_period_variable:table:NULL:Long period variables:8:2
+11:gdr2:vari_rotation_modulation:table:NULL:Rotation Modulation:9:2
+14:gdr2:vari_rrlyrae:table:NULL:RR Lyrae stars:10:2
+23:gdr2:vari_short_timescale:table:NULL:Short timescale sources:11:2
+24:gdr2:vari_time_series_statistics:table:NULL:Statistical parameters of time series:12:2
+33:gdr2:epoch_photometry:table:NULL:Calibrated FoV transit photometry:13:2
+20:gdr2:dr1_neighbourhood:table:NULL:Gaia DR1 neighbourhood:14:2
+15:gdr2:allwise_best_neighbour:table:NULL:Allwise best neighbour:15:2
+17:gdr2:allwise_neighbourhood:table:NULL:Allwise neighbourhood:16:2
+18:gdr2:apassdr9_best_neighbour:table:NULL:APASS DR9 best neighbour:17:2
+19:gdr2:apassdr9_neighbourhood:table:NULL:APASS DR9 neighbourhood:18:2
+16:gdr2:gsc23_best_neighbour:table:NULL:GSC2.3 best neighbour:19:2
+21:gdr2:gsc23_neighbourhood:table:NULL:GSC2.3 neighbourhood:20:2
+25:gdr2:hipparcos2_best_neighbour:table:NULL:Hipparcos-2 best neighbour:21:2
+26:gdr2:hipparcos2_neighbourhood:table:NULL:Hipparcos-2 neighbourhood:22:2
+27:gdr2:panstarrs1_best_neighbour:table:NULL:Pan-STARRS1 best neighbour:23:2
+37:gdr2:panstarrs1_neighbourhood:table:NULL:Pan-STARRS1 neighbourhood:24:2
+38:gdr2:ppmxl_best_neighbour:table:NULL:PPMXL best neighbour:25:2
+39:gdr2:ppmxl_neighbourhood:table:NULL:PPMXL neighbourhood:26:2
+40:gdr2:ravedr5_best_neighbour:table:NULL:RAVE DR5 best neighbour:27:2
+41:gdr2:ravedr5_neighbourhood:table:NULL:RAVE DR5 neighbourhood:28:2
+42:gdr2:sdssdr9_best_neighbour:table:NULL:SDSS DR9 best neighbour:29:2
+43:gdr2:sdssdr9_neighbourhood:table:NULL:SDSS DR9 neighbourhood:30:2
+44:gdr2:tmass_best_neighbour:table:NULL:2MASS best neighbour:31:2
+45:gdr2:tmass_neighbourhood:table:NULL:2MASS neighbourhood:32:2
+46:gdr2:tycho2_best_neighbour:table:NULL:Tycho-2 best neighbour:33:2
+47:gdr2:tycho2_neighbourhood:table:NULL:Tycho-2 neighbourhood:34:2
+22:gdr2:urat1_best_neighbour:table:NULL:URAT-1 best neighbour:35:2
+28:gdr2:urat1_neighbourhood:table:NULL:URAT-1 neighbourhood:36:2
+32:gdr2:aux_allwise_agn_gdr2_cross_id:table:NULL:Gaia DR2 celestial reference frame sources:37:2
+36:gdr2:aux_iers_gdr2_cross_id:table:NULL:Gaia DR2 celestial reference frame sources:38:2
+31:gdr2:aux_sso_orbit_residuals:table:NULL:Orbital fit residuals:39:2
+29:gdr2:aux_sso_orbits:table:NULL:Orbit auxiliary information:40:2
+1:gdr1:gaia_source:table:NULL:"This table has an entry for every Gaia observed source as listed in the Main Database accumulating catalogue version from which the catalogue release has been generated. It contains the basic source parameters, that is only final data (no epoch data) and ":1:1
+5:gdr1:cepheid:table:NULL:"This table describes the Cepheid stars identified in the table variable_summary as ""CEP"".":3:1
+2:gdr1:rrlyrae:table:NULL:"This table describes the Cepheid stars identified in the table variable_summary as ""RRLYR"".":4:1
+7:gdr1:tgas_source:table:NULL:This table is a subset of GaiaSource comprising those stars in the Hipparcos and Tycho-2 Catalogues for which a full 5-parameter astrometric solution has been possible in Gaia Data Release 1. This is possible because the early Hipparcos epoch positions br:2:1
+117:gdr2_contrib:ruwe:table:NULL:This table includes re-normalised unit weight error (RUWE) for sources from the Gaia DR2 gaia_source table. Values of RUWE less than or equal to 1.4 are considered to be indicating a good astrometric solution. More information on how these values are deri:3:9
+6:gdr1:phot_variable_time_series_gfov:table:NULL:"Field-of-view time series of sources that have phot_variable_flag = ""VARIABLE"" in the gaia_source table.":5:1
+3:gdr1:phot_variable_time_series_gfov_statistical_parameters:table:NULL:"Statistical parameters of field-of-view time series, only including observations with rejected_by_variability_processing=false as found in the phot_variable_time_series_gfov table. Note that only sources that have phot_variable_flag = ""VARIABLE"" in the ga":6:1
+4:gdr1:variable_summary:table:NULL:"Table with variability summary of sources with phot_variable_flag = ""VARIABLE"" in the gaia_source table.":7:1
