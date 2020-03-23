@@ -1,4 +1,13 @@
 # Notes on converting contents of gaia's TAP_SCHEMA tables to felis
+The purpose of this exploration is to get a concrete, functional experience attempting to translate tables defined according to the TAP_SCHEMA specification (specifically v1.1) to felis description files.
+Internally, we are using felis as our source of primacy for all of our database holdings.
+It's expected that if we are going to ingest tabular data from the community at large, it would be good to be able to consume metadata in community standard forms.
+The IVOA standard for doing this is TAP_SCHEMA.
+Rather than expecting the community to translate to felis, we would like to be able to take TAP_SCHEMA information and translate it to felis in as automated a process as possible.
+I have taken a few notes on the process, and I have included some general issues/sharp corners I ran into along the way.
+Please take note that the code provided here is not intended to be a general purpose TAP_SCHEMA to felis
+converter, but is instead a first look at how difficult such a thing would be to produce.
+There is no larger justification for why I used gaia as the first example other than I knew how to get the contents of the TAP_SCHEMA tables and it is a dataset I think we may want to ingest.
 
 ## Notes
 * Felis docs are [here](https://felis.lsst.io/).
