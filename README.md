@@ -24,6 +24,9 @@ There is no larger justification for why I used gaia as the first example other 
     * felis_gaia.yaml: is the felis description and is intended to be as compliant as possible without human intervention.
 
 ## General issues
+* The gaia TAP_SCHEMA does not include the `keys` and `key_columns` tables used to describe foreign key relationships.
+  My reading of the TAP 1.1 spec is that all tables defined in tap schema must at least be queryable, even if empty.
+  That would make the gaia TAP_SCHEMA non-compliant with the spec, though as I note below, we should be robust to missing information, if possible.
 * How units are handled is not very standardized.
   Even within the entries of the gaia tap schema, there are at least two ways in which these are represented.
 * The `TAP_SCHEMA` standard does not have information to indicate the primary key.
