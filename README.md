@@ -17,7 +17,7 @@ There is no larger justification for why I used gaia as the first example other 
   * `select * from TAP_SCHEMA.tables`
   * `select * from TAP_SCHEMA.columns`
 * It turns out some descriptions in the tables and columns files had commas in their descriptions which breaks `numpy.genfromtxt` so I converted them to `:` delimited by hand.
-* To produce the yaml descriptions, execute the conversion script `python gaia_tap_to_felis.pygaia_tap_to_felis.py`
+* To produce the yaml descriptions, execute the conversion script `gaia_tap_to_felis.py`
   The script has the locations to the TAP_SCHEMA files hard coded.
   Note that there are two files:
     * tap_gaia.yaml: is simply a yaml serialization of a dictionary of attributes constructed from the input TAP_SCHEMA tables.
